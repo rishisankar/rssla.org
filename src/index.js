@@ -1,11 +1,30 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import Home from './Home';
+import {
+  BrowserRouter,
+  Switch,
+  Route
+} from "react-router-dom";
+import Home from './routes/Home';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Home />
+    <Routes />
   </React.StrictMode>,
   document.getElementById('main-wrapper')
 );
+
+function Routes(props) {
+  return (
+    <BrowserRouter>
+      <Switch>
+        <Route exact path="/">
+          <Home />
+        </Route>
+        <Route exaxt path="/about">
+          ABOUT
+        </Route>
+      </Switch>
+    </BrowserRouter>
+  )
+}

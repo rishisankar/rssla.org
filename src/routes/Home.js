@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
-import RSSPage from './RSSPage';
+import RSSPage from '../util/RSSPage';
+import Banner from '../util/Banner';
 
 import './home.css';
 
@@ -8,12 +9,13 @@ class Home extends Component {
     render() {
         return (
             <RSSPage>
-                <div className="home-banner">
-                    <div className="home-banner-heading">
-                        <div className="home-banner-main-heading">this is rss</div>
-                        <div className="home-banner-sub-heading">regents scholar society at ucla</div>
-                    </div>
-                </div>
+                <Banner 
+                    text="this is rss" 
+                    subtext="regents scholar society at ucla" 
+                    bgr="/images/2019_Conference.jpg"
+                    darkness="0.1"
+                    valign="65%"
+                />
 
                 content
                 <br/> content
