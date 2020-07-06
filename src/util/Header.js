@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 
 import './header.css'
 
+/**
+ * Nav bar at the top of each page
+ */
 class Header extends Component {
     render() {
         return (

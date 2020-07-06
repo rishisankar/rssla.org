@@ -13,6 +13,10 @@ class Footer extends Component {
     }
 }
 
+/**
+ * Wrapper component for each page to include the header, footer, and properly format content within page.
+ * Wrap <RSSPage> component around each page's content. 
+ */
 const RSSPage = (props) => (
     <React.Fragment>
         <Header />
