@@ -1,0 +1,37 @@
+.home .about-panel {
+    width: 100%;
+}
+
+.home .about-text {
+    background-color: black;
+    display: table-cell;
+    width: calc(40% - 120px);
+    padding: 60px;
+}
+
+.home .about-heading {
+    font-family: "Kollektif";
+    color: white;
+    font-size: 35px;
+    line-height: 38px;
+    width: 100%;
+    border-bottom: 4px solid white;
+}
+
+.home .about-description {
+    font-family: "Roboto", sans-serif;
+    font-size: 17px;
+    color: #dddddd;
+    padding-top: 10px;
+}
+
+.home .about-img-wrapper {
+    display: table-cell;
+    vertical-align: top;
+    width: 60%;
+    height: 100%;
+    background: url("/images/2020_broomball2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 60%;
+}
