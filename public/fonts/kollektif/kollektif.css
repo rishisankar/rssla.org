@@ -1,0 +1,6 @@
+@font-face {
+    font-family: 'Kollektif';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Kollektif'), url('Kollektif.woff') format('woff');
+}

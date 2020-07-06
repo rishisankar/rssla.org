@@ -1,0 +1,30 @@
+.home-banner {
+    display: flex;
+    width: 100%;
+    min-height: 500px;
+    height: 40vw;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-flow: row wrap;
+    background: 
+        linear-gradient(
+            rgba(0, 0, 0, 0.15), 
+            rgba(0, 0, 0, 0.15)
+        ), url("/images/2019_Conference.jpg");
+    background-repeat: no-repeat;
+    background-position: 50% 65%;
+    background-size: cover;
+    font-family: "Kollektif";
+    color: #ECEBE9;
+    text-shadow: 0 1px 0 black;
+}
+
+.home-banner-main-heading {
+    font-size: 14vw;
+    line-height: 11vw;
+}
+
+.home-banner-sub-heading {
+    font-size: 3.5vw;
+}
