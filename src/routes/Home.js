@@ -8,7 +8,7 @@ import './home.css';
 class Home extends Component {
     render() {
         return (
-            <RSSPage>
+            <RSSPage className="home">
                 <Banner 
                     text="this is rss" 
                     subtext="regents scholar society at ucla" 

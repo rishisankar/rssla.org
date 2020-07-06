@@ -13,11 +13,11 @@ class Footer extends Component {
     }
 }
 
-const RSSPage = ({children}) => (
+const RSSPage = (props) => (
     <React.Fragment>
         <Header />
-            <div id="content-wrapper">
-                {children}
+            <div id="content-wrapper" className={props.className}>
+                {props.children}
             </div>
         <Footer />
     </React.Fragment>
