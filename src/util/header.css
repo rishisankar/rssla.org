@@ -36,9 +36,62 @@
 }
 
 .nav-box {
+    transition: background-color 0.7s ease;
     display: inline-block;
     padding-left: 20px;
     padding-right: 20px;
     font-family: "Kollektif";
     font-size: 20px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.nav-box.expandable {
+    cursor: default;
+}
+
+.nav-box.expandable:hover .navicon {
+    transition: 0.5s;
+    transform: rotate(180deg);
+}
+
+.nav-box:hover {
+    background: rgb(0,0,0,0.3);
+}
+
+.navicon {
+    margin-top: 1px;
+    font-size: 14px;
+    transition: 0.5s;
+    transform: rotate(0deg);
+}
+
+.nav-box-link {
+    height: 100%;
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.nav-box-link:hover {
+    color: white;
+}
+
+.nav-box-expanded {
+    position: absolute;
+    min-width: 100%;
+    right: 0;
+    top: 60px;
+    background: inherit;
+}
+
+.nav-box-expanded-item {
+    transition: background-color 0.7s ease;
+    background: rgb(0,0,0,0.6);
+    padding: 15px 20px 15px 20px;
+}
+
+.nav-box-expanded-item:hover {
+    background: rgb(0,0,0,0.8);
 }
