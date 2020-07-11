@@ -1,0 +1,38 @@
+.prospectives .scholarship-benefits-wrapper {
+    text-align: center;
+}
+
+.prospectives .scholarship-benefit {
+    width: 20%;
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 45px;
+    padding-right: 45px;
+}
+
+.prospectives .benefit-banner {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: calc(30px + 10vw);
+}
+
+.prospectives .benefit-banner-img {
+    height: 100%;
+}
+
+.prospectives .benefit-banner-text {
+    position: absolute;
+}
+
+.prospectives .benefit-banner-text-heading {
+    font-family: "Kollektif-Bold";
+    font-size: calc(25px + 3vw);
+    line-height: calc(25px + 2vw);
+}
+
+.prospectives .benefit-banner-text-subheading {
+    font-family: "Kollektif";
+    font-size: calc(10px + 0.8vw);
+}

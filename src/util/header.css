@@ -23,9 +23,15 @@
 }
 
 .header-logo {
-    height: 75%;
+    height: 100%;
     filter: invert(100%);
     opacity: 1;
+}
+
+.header-logo-link {
+    text-decoration: inherit;
+    color: inherit;
+    height: 75%;
 }
 
 .nav-bar-wrapper {

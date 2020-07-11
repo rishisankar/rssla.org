@@ -4,3 +4,10 @@
     font-weight: normal;
     src: local('Kollektif'), url('Kollektif.woff') format('woff');
 }
+
+@font-face {
+    font-family: 'Kollektif-Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Kollektif-Bold'), url('Kollektif-Bold.woff') format('woff');
+}

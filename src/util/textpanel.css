@@ -1,0 +1,21 @@
+.text-panel {
+    background-color: black;
+    display: block;
+    padding: 60px;
+}
+
+.text-panel-heading {
+    font-family: "Kollektif";
+    color: white;
+    font-size: calc(20px + 1.1vw);
+    line-height: calc(24px + 1.2vw);
+    width: 100%;
+    border-bottom: 4px solid white;
+}
+
+.text-panel-content {
+    font-family: "Roboto", sans-serif;
+    font-size: calc(10px + 0.5vw);
+    color: #dddddd;
+    padding-top: 10px;
+}

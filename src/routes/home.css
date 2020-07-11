@@ -2,27 +2,9 @@
     width: 100%;
 }
 
-.home .about-text {
-    background-color: black;
-    display: table-cell;
+.home .text-panel {
     width: calc(40% - 120px);
-    padding: 60px;
-}
-
-.home .about-heading {
-    font-family: "Kollektif";
-    color: white;
-    font-size: calc(20px + 1.1vw);
-    line-height: calc(24px + 1.2vw);
-    width: 100%;
-    border-bottom: 4px solid white;
-}
-
-.home .about-description {
-    font-family: "Roboto", sans-serif;
-    font-size: calc(10px + 0.5vw);
-    color: #dddddd;
-    padding-top: 10px;
+    display: table-cell !important;
 }
 
 .home .about-img-wrapper {
@@ -37,7 +19,7 @@
 }
 
 @media (max-width: 840px) {
-    .home .about-text {
+    .home .text-panel {
         width: calc(100% - 120px);
         display: block;
     }

@@ -17,17 +17,29 @@ import './banner.css'
 
 class Banner extends Component {
     render() {
-        const darkness = this.props.darkness == null ? 0 : this.props.darkness;
-        const valign = this.props.valign == null ? 0.5 : this.props.valign;
-        const bannerStyle = {
-            background: `linear-gradient(rgba(0,0,0,${darkness}),rgba(0,0,0,${darkness})),url(${this.props.bgr})`,
-            backgroundRepeat: "no-repeat",
-            backgroundPosition: `50% ${valign}`,
-            backgroundSize: "cover"
-        };
-        
+        var bannerStyle;
+        if (this.props.video) {
+            bannerStyle = {};
+        } else {
+            const darkness = this.props.darkness == null ? 0 : this.props.darkness;
+            const valign = this.props.valign == null ? 0.5 : this.props.valign;
+            bannerStyle = {
+                background: `linear-gradient(rgba(0,0,0,${darkness}),rgba(0,0,0,${darkness})),url(${this.props.bgr})`,
+                backgroundRepeat: "no-repeat",
+                backgroundPosition: `50% ${valign}`,
+                backgroundSize: "cover"
+            };
+        }
+
         return (
             <div className="banner" style={bannerStyle}>
+                {this.props.video ? 
+                    <div className="banner-video-wrapper">
+                        <video autoPlay muted loop className="banner-video">
+                            <source src="/images/intro_video.mp4" type="video/mp4"/>
+                        </video>
+                    </div>
+                    : null}
                 <div className="banner-heading">
                     <div className="banner-main-heading">{this.props.text}</div>
                     <div className="banner-sub-heading">{this.props.subtext}</div>

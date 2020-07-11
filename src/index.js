@@ -6,6 +6,7 @@ import {
   Route
 } from "react-router-dom";
 import Home from './routes/Home';
+import Prospectives from './routes/Prospectives';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -21,8 +22,8 @@ function Routes(props) {
         <Route exact path="/">
           <Home />
         </Route>
-        <Route exaxt path="/about">
-          ABOUT
+        <Route exaxt path="/prospectives">
+          <Prospectives />
         </Route>
       </Switch>
     </BrowserRouter>

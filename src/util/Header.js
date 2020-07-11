@@ -11,7 +11,9 @@ class Header extends Component {
         return (
             <div className="header-wrapper">
                 <div className="header-title">
-                    <img src="/images/rss_logo.png" alt="rss logo" className="header-logo"/>
+                    <Link to="/" className="header-logo-link">
+                        <img src="/images/rss_logo.png" alt="rss logo" className="header-logo"/>
+                    </Link>
                 </div>
                 <div className="nav-bar-wrapper">
                     <ExpandableNavBox 
@@ -19,8 +21,7 @@ class Header extends Component {
                         link={null} 
                         options={[{label: "programs", to: "programs"},
                                   {label: "committees", to: "committees"},
-                                  {label: "board", to: "board"},
-                                  {label: "sponsors", to: "sponsors"}
+                                  {label: "board", to: "board"}
                                 ]}
                     />
                     <NavBox label="gallery" link="gallery" />
@@ -40,11 +41,10 @@ class NavBox extends Component {
                     className="nav-box-link"
                     to={this.props.link}
                 >
-            <div className="nav-box">
-                
+                <div className="nav-box">
                     {this.props.label}
-            </div>
-                </Link>
+                </div>
+            </Link>
         )
     }
 }
@@ -69,7 +69,7 @@ class ExpandableNavBox extends Component {
             >
                 {this.props.label}
                 &nbsp;
-                <i class="navicon fas fa-chevron-down"/>
+                <i className="navicon fas fa-chevron-down"/>
                 
                 {this.state.open ?
                     <div className="nav-box-expanded">
