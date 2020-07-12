@@ -36,7 +36,7 @@ class Banner extends Component {
                 {this.props.video ? 
                     <div className="banner-video-wrapper">
                         <video autoPlay muted loop className="banner-video">
-                            <source src="/images/intro_video.mp4" type="video/mp4"/>
+                            <source src="/images/intro_video_edit.mp4" type="video/mp4"/>
                         </video>
                     </div>
                     : null}

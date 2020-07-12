@@ -13,9 +13,6 @@ class Home extends Component {
                 <Banner 
                     text="this is rss" 
                     subtext="regents scholar society at ucla" 
-                    bgr="/images/2019_Conference.jpg"
-                    darkness="0.1"
-                    valign="65%"
                     video="true"
                 />
 

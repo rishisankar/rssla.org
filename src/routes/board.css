@@ -1,0 +1,40 @@
+.board .board-wrapper {
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: center;
+}
+
+.board .board-profile-wrapper {
+    padding: 50px;
+    width: 200px;
+    color: white;
+    font-family: 'Roboto bold', sans-serif;
+    text-align: center;
+}
+
+.board .board-profile-img {
+    width: 90%;
+    padding-top: 90%;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.board .board-profile-title {
+    font-size: 18px;
+}
+
+.board .board-profile-name {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.board .board-profile-major {
+    font-size: 14px;
+    font-style: italic;
+    color: #e6e6e6;
+}

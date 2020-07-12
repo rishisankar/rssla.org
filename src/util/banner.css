@@ -13,6 +13,12 @@
     text-shadow: 2px 3px 5px rgba(0,0,0,0.5);
 }
 
+.banner-heading {
+    width: calc(100% - 50px);
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
 .banner-main-heading {
     opacity: 0.8;
     font-size: 14vw;
