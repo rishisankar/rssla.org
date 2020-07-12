@@ -19,13 +19,13 @@ class Board extends Component {
                     <BoardProfile
                         title="President"
                         name="Donya Mazdeyasnan"
-                        major="idk"
-                        img="idk.jpg"
+                        major="Psychobiology, 2022"
+                        img="donya.jpg"
                     />
                     <BoardProfile
                         title="External Vice President"
                         name="Rebecca Zhu"
-                        major="idk"
+                        major="???"
                         img="idk.jpg"
                     />
                     <BoardProfile
@@ -37,7 +37,7 @@ class Board extends Component {
                     <BoardProfile
                         title="Secretary"
                         name="James Yoon"
-                        major="idk"
+                        major="???"
                         img="idk.jpg"
                     />
                     <BoardProfile
@@ -49,13 +49,14 @@ class Board extends Component {
                     <BoardProfile
                         title="Activities Director"
                         name="Tina Huang"
-                        major="idk"
-                        img="idk.jpg"
+                        major="Computer Science and Engineering, 2023"
+                        img="tina.jpg"
+                        halign="45%"
                     />
                     <BoardProfile
                         title="Community Service Director"
                         name="Andrew Kang"
-                        major="idk"
+                        major="???"
                         img="idk.jpg"
                     />
                     <BoardProfile
@@ -76,20 +77,20 @@ class Board extends Component {
                     <BoardProfile
                         title="LAMP Director"
                         name="Mizna Akbar"
-                        major="idk"
+                        major="???"
                         img="idk.jpg"
                     />
                     <BoardProfile
                         title="LAMP Director"
                         name="Sandhya Rajkumar"
-                        major="idk"
+                        major="???"
                         img="idk.jpg"
                     />
                     <BoardProfile
                         title="Publicity Director"
                         name="Jenny Chung"
-                        major="idk"
-                        img="idk.jpg"
+                        major="Mathematics for Teaching, 2022"
+                        img="jenny.jpg"
                     />
                     <BoardProfile
                         title="Transfer Affairs Director"
@@ -101,8 +102,8 @@ class Board extends Component {
                     <BoardProfile
                         title="Treasurer"
                         name="Jason Liu"
-                        major="idk"
-                        img="idk.jpg"
+                        major="???"
+                        img="jason.jpg"
                     />
                     <BoardProfile
                         title="Webmaster"

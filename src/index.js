@@ -9,6 +9,7 @@ import {
 import Home from './routes/Home';
 import Prospectives from './routes/Prospectives';
 import Board from './routes/Board';
+import Programs from './routes/Programs';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -24,6 +25,7 @@ function Routes(props) {
         <Route exact path="/"><Home /></Route>
         <Route exaxt path="/prospectives"><Prospectives /></Route>
         <Route exaxt path="/board"><Board /></Route>
+        <Route exaxt path="/programs"><Programs /></Route>
       </Switch>
     </BrowserRouter>
   )

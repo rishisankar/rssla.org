@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 import RSSPage from '../util/RSSPage';
 import Banner from '../util/Banner';
-import TextPanel from '../util/TextPanel';
+import {TextPanel} from '../util/TextPanel';
 
 import './prospectives.css';
 

@@ -74,7 +74,7 @@ class ExpandableNavBox extends Component {
                 {this.state.open ?
                     <div className="nav-box-expanded">
                         {this.props.options.map((item, i) =>
-                            <Link className="nav-box-link" to={item.to}>
+                            <Link className="nav-box-link" to={item.to} key={item.to}>
                                 <div className="nav-box-expanded-item">
                                     {item.label}
                                 </div>
