@@ -11,6 +11,7 @@
 }
 
 .prospectives .benefit-banner {
+    position: relative;
     width: 100%;
     display: flex;
     align-items: center;
@@ -24,15 +25,22 @@
 
 .prospectives .benefit-banner-text {
     position: absolute;
+    width: 80%;
 }
 
 .prospectives .benefit-banner-text-heading {
     font-family: "Kollektif-Bold";
-    font-size: calc(25px + 3vw);
-    line-height: calc(25px + 2vw);
+    font-size: calc(10px + 3vw);
+    line-height: calc(10px + 2vw);
 }
 
 .prospectives .benefit-banner-text-subheading {
     font-family: "Kollektif";
     font-size: calc(10px + 0.8vw);
+}
+
+.prospectives .benefit-banner-text-smallheading {
+    font-family: "Kollektif";
+    font-size: calc(20px + 0.8vw);
+    line-height: calc(17px + 0.8vw);
 }

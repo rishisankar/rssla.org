@@ -48,6 +48,38 @@ class Prospectives extends Component {
                     </div>
                 </TextPanel>
 
+                <TextPanel heading="internal programs">
+                    We want our Regents Scholars to grow, to succeed, and to thrive. That's why we provide
+                    the following internal programs:
+                    <div className="scholarship-benefits-wrapper">
+                        <BenefitDescription
+                            smallheading="mentorship &amp; families"
+                            desc="Our peer mentors are upperclassmen who have recently been in the shoes of
+                                our new RSSers and want to give back by helping them learn the ropes of UCLA!
+                                Our alumni mentors are graduated RSSers who have broken through their industries
+                                and can provide professional advice to aspiring professionals.
+                                Finally, our faculty mentorship program pairs RSSers and faculty members to 
+                                cultivate relationships and help members learn more about their passions and 
+                                fields of study."
+                            bgr="family.png"
+                        />
+                        <BenefitDescription
+                            smallheading="educational resources"
+                            desc="We want our Regents Scholars to grow, to succeed, and to thrive. Thus, 
+                                we offer a variety of different resources for our members to take advantage of!
+                                Whether it be resume reviews, information sessions, workshops, or course planning 
+                                events - we aim to ensure that each RSS member has the resources they need to succeed."
+                            bgr="closedbook.png"
+                        />
+                        <BenefitDescription
+                            smallheading="leadership opportunities"
+                            desc="Through our committees, you can engage with the society, develop leadership skills, 
+                                and utilize all of our resources! Applications open every fall quarter."
+                            bgr="handshake.png"
+                        />
+                    </div>
+                </TextPanel>
+
             </RSSPage>
         )
     }
@@ -61,10 +93,16 @@ class BenefitDescription extends Component {
         return (
             <div className="scholarship-benefit">
                 <div className="benefit-banner">
-                    <img src={`/images/bg_icons/${this.props.bgr}`} alt="square" className="benefit-banner-img" style={imgHeight} />
+                    <img src={`/images/bg_icons/${this.props.bgr}`} alt={this.props.subheading} className="benefit-banner-img" style={imgHeight} />
                     <div className="benefit-banner-text">
-                        <div className="benefit-banner-text-heading">{this.props.heading}</div>
-                        <div className="benefit-banner-text-subheading">{this.props.subheading}</div>
+                        {this.props.smallheading == null ?
+                            <React.Fragment>
+                                <div className="benefit-banner-text-heading">{this.props.heading}</div>
+                                <div className="benefit-banner-text-subheading">{this.props.subheading}</div>
+                            </React.Fragment>
+                        :
+                            <div className="benefit-banner-text-smallheading">{this.props.smallheading}</div>
+                        }
                     </div>
                 </div>
                 <div className="benefit-banner-desc">{this.props.desc}</div>

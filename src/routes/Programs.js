@@ -16,7 +16,6 @@ class Programs extends Component {
     }
 
     componentDidMount() {
-        this.longestPanelStyle = window.getComputedStyle(document.getElementById("programs-spiel-panel"));
         this.updatePanelHeight();
         window.addEventListener('resize', this.updatePanelHeight);
     }
@@ -26,8 +25,12 @@ class Programs extends Component {
     }
 
     updatePanelHeight() {
-        this.setState({ 
-            longestPanelHeight: this.longestPanelStyle.height });
+        if (window.innerWidth > 840) {
+            this.setState({ 
+                longestPanelHeight: window.getComputedStyle(document.getElementById("programs-spiel-panel")).height });
+        } else {
+            this.setState({longestPanelHeight: null});
+        }
     }
 
     render() {
