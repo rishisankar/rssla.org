@@ -49,7 +49,7 @@
     }
 
     .board .board-profile-wrapper {
-        padding: 10px 100px 10px 100px;
+        padding: 10px 0 10px 0;
         text-align: left;
         width: initial;
         display: flex;

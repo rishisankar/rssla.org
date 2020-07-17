@@ -7,7 +7,29 @@ import './header.css'
  * Nav bar at the top of each page
  */
 class Header extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            width: window.innerWidth
+        }
+        this.updateWindowDimensions = this.updateWindowDimensions.bind(this);
+    }
+
+    componentDidMount() {
+        this.updateWindowDimensions();
+        window.addEventListener('resize', this.updateWindowDimensions);
+    }
+
+    componentWillUnmount() {
+        window.removeEventListener('resize', this.updateWindowDimensions);
+    }
+
+    updateWindowDimensions() {
+        this.setState({ width: window.innerWidth });
+    }
+
     render() {
+        const desktop = this.state.width > 840;
         return (
             <div className="header-wrapper">
                 <div className="header-title">
@@ -15,20 +37,78 @@ class Header extends Component {
                         <img src="/images/rss_logo.png" alt="rss logo" className="header-logo"/>
                     </Link>
                 </div>
-                <div className="nav-bar-wrapper">
+                <NavItems desktop={desktop}>
                     <ExpandableNavBox 
                         label="about" 
                         link={null} 
+                        desktop={desktop}
                         options={[{label: "programs", to: "programs"},
-                                  {label: "committees", to: "committees"},
-                                  {label: "board", to: "board"}
+                                {label: "committees", to: "committees"},
+                                {label: "board", to: "board"}
                                 ]}
                     />
                     <NavBox label="gallery" link="gallery" />
                     <NavBox label="prospectives" link="prospectives" />
                     <NavBox label="contact us" link="contact" />
                     <NavBox label="log in" link="login" />
+                </NavItems>
+            </div>
+        )
+    }
+}
+
+function NavItems(props) {
+    if (props.desktop) {
+        console.log(props.width);
+        return (
+            <div className="nav-bar-wrapper desktop">
+                {props.children}
+            </div>
+        )
+    } else {
+        return (
+            <div className="nav-bar-wrapper mobile">
+                <HamburgerMenu contents={props.children} />
+            </div>
+        )
+    }
+}
+
+class HamburgerMenu extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            open: false
+        }
+    }
+
+    toggleOpen() {
+        this.setState({open: !this.state.open});
+    }
+
+    closeMenu() {
+        this.setState({open: false});
+    }
+    
+    render() {
+        return (
+            <div className="hamburger-menu-wrapper">
+                <div onClick={()=>this.toggleOpen()} className="hamburger-icon">
+                    <i className="fas fa-bars" />
                 </div>
+                <div className={`header-sidebar ${this.state.open ? "open" : "closed"}`}>
+                    <div className="header-logo-wrapper-mobile">
+                        <Link to="/" className="header-logo-link-mobile">
+                            <img src="/images/rss_logo.png" alt="rss logo" className="header-logo-mobile"/>
+                        </Link>
+                    </div>
+                    <div className="header-sidebar-contents">
+                        {this.props.contents}
+                    </div>
+                </div>
+                {this.state.open ? 
+                    <div className="header-sidebar-shader" onClick={()=>this.toggleOpen()} />
+                : null}
             </div>
         )
     }
@@ -61,20 +141,32 @@ class ExpandableNavBox extends Component {
         this.setState({open: open});
     }
 
-    render() {        
-        return (
-            <div className="nav-box expandable" 
-                onMouseEnter={() => this.setOpen(true)}
-                onMouseLeave={() => this.setOpen(false)}    
-            >
-                {this.props.label}
-                &nbsp;
-                <i className="navicon fas fa-chevron-down"/>
+
+    render() {      
+        let contents = (
+            <>
+                <div className="nav-box-expanded-label">
+                    {this.props.label}
+                    {this.props.desktop ? 
+                        <>
+                            &nbsp;
+                            <i className="navicon fas fa-chevron-down"/>
+                        </>
+                    : 
+                        <div className={`nav-box-expanded-label-icon-wrapper ${this.state.open ? "up" : "down"}`}>
+                            {this.state.open ? 
+                                <i className="fas fa-sort-up"/>
+                            :
+                                <i className="fas fa-sort-down"/>
+                            }
+                        </div>
+                    }
+                </div>
                 
                 {this.state.open ?
                     <div className="nav-box-expanded">
                         {this.props.options.map((item, i) =>
-                            <Link className="nav-box-link" to={item.to} key={item.to}>
+                            <Link className="nav-box-link" to={item.to} key={item.to} >
                                 <div className="nav-box-expanded-item">
                                     {item.label}
                                 </div>
@@ -82,8 +174,28 @@ class ExpandableNavBox extends Component {
                         )}
                     </div>
                 : null}
-            </div>
-        )
+            </>
+        )  
+        if (this.props.desktop) {
+            return (
+                <div 
+                    className="nav-box expandable" 
+                    onMouseEnter={() => this.setOpen(true)}
+                    onMouseLeave={() => this.setOpen(false)}    
+                > 
+                    {contents}
+                </div>
+            )
+        } else {
+            return (
+                <div 
+                    className="nav-box expandable" 
+                    onClick={() => this.setOpen(!this.state.open)} 
+                > 
+                    {contents}
+                </div>
+            )
+        }
     }
 }
 

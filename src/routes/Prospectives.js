@@ -19,9 +19,8 @@ class Prospectives extends Component {
 
                 <TextPanel heading="the scholarship">
                     The Regents Scholarship is awarded to up to 100 incoming freshmen 
-                    and transfer students.
-                    <br/>
-                    Alongside membership in the Regents Scholar Society, all Regents Scholars receive:
+                    and transfer students. Alongside membership in the Regents Scholar Society, 
+                    all Regents Scholars receive:
                     <div className="scholarship-benefits-wrapper">
                         <BenefitDescription
                             heading="$2000"
@@ -48,9 +47,9 @@ class Prospectives extends Component {
                     </div>
                 </TextPanel>
 
-                <TextPanel heading="internal programs">
+                <TextPanel heading="what we offer">
                     We want our Regents Scholars to grow, to succeed, and to thrive. That's why we provide
-                    the following internal programs:
+                    the following opportunities:
                     <div className="scholarship-benefits-wrapper">
                         <BenefitDescription
                             smallheading="mentorship &amp; families"
@@ -64,9 +63,8 @@ class Prospectives extends Component {
                             bgr="family.png"
                         />
                         <BenefitDescription
-                            smallheading="educational resources"
-                            desc="We want our Regents Scholars to grow, to succeed, and to thrive. Thus, 
-                                we offer a variety of different resources for our members to take advantage of!
+                            smallheading="academic resources"
+                            desc="We offer a variety of different educational resources for our members to take advantage of!
                                 Whether it be resume reviews, information sessions, workshops, or course planning 
                                 events - we aim to ensure that each RSS member has the resources they need to succeed."
                             bgr="closedbook.png"

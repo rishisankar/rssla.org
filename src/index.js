@@ -22,7 +22,7 @@ function Routes(props) {
   return (
     <BrowserRouter>
       <Switch>
-        <Route exact path="/"><Home /></Route>
+        <Route exact path="/"><Home key={Math.random()}/></Route>
         <Route exaxt path="/prospectives"><Prospectives /></Route>
         <Route exaxt path="/board"><Board /></Route>
         <Route exaxt path="/programs"><Programs /></Route>

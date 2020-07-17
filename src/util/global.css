@@ -4,13 +4,8 @@ html, body {
     height: 100%;
 }
 
-html {
-    overflow: hidden;
-}
-
 body {
     font-family: 'Roboto', sans-serif;
-    overflow: auto;
 }
 
 #main-wrapper {

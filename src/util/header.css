@@ -41,7 +41,7 @@
     padding-right: 40px;
 }
 
-.nav-box {
+.nav-bar-wrapper.desktop .nav-box {
     transition: background-color 0.7s ease;
     display: inline-block;
     padding-left: 20px;
@@ -54,37 +54,37 @@
     position: relative;
 }
 
-.nav-box.expandable {
+.nav-bar-wrapper.desktop .nav-box.expandable {
     cursor: default;
 }
 
-.nav-box.expandable:hover .navicon {
+.nav-bar-wrapper.desktop .nav-box.expandable:hover .navicon {
     transition: 0.5s;
     transform: rotate(180deg);
 }
 
-.nav-box:hover {
+.nav-bar-wrapper.desktop .nav-box:hover {
     background: rgb(0,0,0,0.3);
 }
 
-.navicon {
+.nav-bar-wrapper.desktop .navicon {
     margin-top: 1px;
     font-size: 14px;
     transition: 0.5s;
     transform: rotate(0deg);
 }
 
-.nav-box-link {
+.nav-bar-wrapper.desktop .nav-box-link {
     height: 100%;
     color: inherit;
     text-decoration: inherit;
 }
 
-.nav-box-link:hover {
+.nav-bar-wrapper.desktop .nav-box-link:hover {
     color: white;
 }
 
-.nav-box-expanded {
+.nav-bar-wrapper.desktop .nav-box-expanded {
     position: absolute;
     min-width: 100%;
     right: 0;
@@ -92,12 +92,103 @@
     background: inherit;
 }
 
-.nav-box-expanded-item {
+.nav-bar-wrapper.desktop .nav-box-expanded-item {
     transition: background-color 0.7s ease;
     background: rgb(0,0,0,0.6);
     padding: 15px 20px 15px 20px;
 }
 
-.nav-box-expanded-item:hover {
+.nav-bar-wrapper.desktop .nav-box-expanded-item:hover {
     background: rgb(0,0,0,0.8);
+}
+
+/* ---------- MOBILE STYLES ----------- */
+
+.fas.fa-bars {
+    font-size: 24px;
+}
+
+.header-sidebar {
+    position: absolute;
+    z-index: 99;
+    height: 100vh;
+    width: min(400px, 70vw);
+    top: 0;
+    background-color: black;
+    transition: left 0.5s ease;
+    padding-top: 25px;
+}
+
+.header-sidebar.open {
+    left: 0;
+}
+
+.header-sidebar.closed {
+    left: max(-400px, -70vw);
+}
+
+.header-sidebar-shader {
+    position: absolute;
+    z-index: 98;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    background-color: black;
+    opacity: 0.4;
+}
+
+.header-logo-wrapper-mobile {
+    margin-left: 18%;
+    margin-bottom: 20px;
+}
+
+.header-logo-mobile {
+    width: 60%;
+    filter: invert(100%);
+    opacity: 1;
+}
+
+.header-sidebar-contents {
+    width: 100%;
+    text-align: left;
+    border-bottom: 1px solid rgb(185, 185, 185);
+}
+
+.nav-bar-wrapper.mobile .nav-box, .nav-bar-wrapper.mobile .nav-box-expanded-item, .nav-bar-wrapper.mobile .nav-box-expanded-label {
+    border-top: 1px solid rgb(185, 185, 185);
+    padding: 15px 0 15px 25px;
+}
+
+.nav-bar-wrapper.mobile .nav-box.nav-box.expandable {
+    border: none !important;
+    padding: 0 !important;
+}
+
+.nav-bar-wrapper.mobile .nav-box-link {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.nav-bar-wrapper.mobile .nav-box, .nav-bar-wrapper.mobile .nav-box-expanded-label {
+    font-family: "Kollektif";
+    font-size: 18px;
+    color: white;
+}
+
+.nav-bar-wrapper.mobile .nav-box-expanded-item {
+    padding-left: 45px;
+}
+
+.nav-box-expanded-label-icon-wrapper {
+    float: right;
+    padding-right: 30px;
+}
+
+.nav-box-expanded-label-icon-wrapper.down {
+    margin-top: -3px;
+}
+
+.nav-box-expanded-label-icon-wrapper.up {
+    margin-top: 4px;
 }
