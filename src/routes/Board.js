@@ -91,14 +91,14 @@ class Board extends Component {
                 <BoardProfile width={this.state.width}
                     title="LAMP Director"
                     name="Mizna Akbar"
-                    major="???"
-                    img="idk.jpg"
+                    major="Global Studies, 2021"
+                    img="mizna.jpg"
                 />
                 <BoardProfile width={this.state.width}
                     title="LAMP Director"
                     name="Sandhya Rajkumar"
-                    major="???"
-                    img="idk.jpg"
+                    major="Computational and Systems Biology, 2021"
+                    img="sandhya.jpg"
                 />
                 <BoardProfile width={this.state.width}
                     title="Publicity Director"

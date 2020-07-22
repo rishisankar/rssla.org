@@ -50,7 +50,6 @@ class Header extends Component {
                     <NavBox label="gallery" link="gallery" />
                     <NavBox label="prospectives" link="prospectives" />
                     <NavBox label="contact us" link="contact" />
-                    <NavBox label="log in" link="login" />
                 </NavItems>
             </div>
         )
