@@ -58,7 +58,6 @@ class Header extends Component {
 
 function NavItems(props) {
     if (props.desktop) {
-        console.log(props.width);
         return (
             <div className="nav-bar-wrapper desktop">
                 {props.children}

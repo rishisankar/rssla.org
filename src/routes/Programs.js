@@ -83,6 +83,20 @@ class Programs extends Component {
                     Regents Scholar Society hosts periodic service events throughout the 
                     year. Stay tuned on our Facebook group to get involved!
                 </ImageTextPanel>
+                <ImageTextPanel 
+                    heading="mentorship"
+                    image="/images/2020_broomball2.jpg"
+                    align="right"
+                    height={this.state.longestPanelHeight}
+                >
+                    Our peer mentors are upperclassmen who have recently been in the shoes of
+                    our new RSSers and want to give back by helping them learn the ropes of UCLA!
+                    Our alumni mentors are graduated RSSers who have broken through their industries
+                    and can provide professional advice to aspiring professionals.
+                    Finally, our faculty mentorship program pairs RSSers and faculty members to 
+                    cultivate relationships and help members learn more about their passions and 
+                    fields of study.
+                </ImageTextPanel>
             </RSSPage>
         )
     }

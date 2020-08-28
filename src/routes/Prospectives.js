@@ -17,7 +17,7 @@ class Prospectives extends Component {
                     valign="65%"
                 />
 
-                <TextPanel heading="the scholarship">
+                <TextPanel heading="the scholarship" id="first-text-panel">
                     The Regents Scholarship is awarded to up to 100 incoming freshmen 
                     and transfer students. Alongside membership in the Regents Scholar Society, 
                     all Regents Scholars receive:
@@ -47,25 +47,21 @@ class Prospectives extends Component {
                     </div>
                 </TextPanel>
 
-                <TextPanel heading="what we offer">
+                <TextPanel heading="what we offer" id="second-text-panel">
                     We want our Regents Scholars to grow, to succeed, and to thrive. That's why we provide
                     the following opportunities:
                     <div className="scholarship-benefits-wrapper">
                         <BenefitDescription
                             smallheading="mentorship &amp; families"
-                            desc="Our peer mentors are upperclassmen who have recently been in the shoes of
-                                our new RSSers and want to give back by helping them learn the ropes of UCLA!
-                                Our alumni mentors are graduated RSSers who have broken through their industries
-                                and can provide professional advice to aspiring professionals.
-                                Finally, our faculty mentorship program pairs RSSers and faculty members to 
-                                cultivate relationships and help members learn more about their passions and 
-                                fields of study."
+                            desc="All freshmen are able to match with a peer mentor and join a mentorship family. Your
+                                mentor can guide you through choosing classes, joining student organizations, and any
+                                advice you need. Your mentorship family is a group of RSSers you will become close friends with!"
                             bgr="family.png"
                         />
                         <BenefitDescription
                             smallheading="academic resources"
                             desc="We offer a variety of different educational resources for our members to take advantage of!
-                                Whether it be resume reviews, information sessions, workshops, or course planning 
+                                Whether it be resume reviews, information sessions, workshops, our test bank, or course planning 
                                 events - we aim to ensure that each RSS member has the resources they need to succeed."
                             bgr="closedbook.png"
                         />

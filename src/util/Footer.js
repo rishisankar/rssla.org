@@ -51,7 +51,7 @@ function SocialMediaIcon(props) {
 
     return (
         <a className="footer-social-media-link" href={props.link} target="_blank" rel="noopener noreferrer">
-            <i class={props.iconClass} style={style}/>
+            <i className={props.iconClass} style={style}/>
         </a>
     );
 }
