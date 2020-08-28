@@ -18,8 +18,3 @@ body {
 #content-wrapper {
     flex: 1;
 }
-
-#footer-wrapper {
-    height: 100px;
-    background-color: pink;
-}

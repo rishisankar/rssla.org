@@ -1,0 +1,48 @@
+#footer-wrapper {
+    background-color: #161616;
+    color: rgb(192, 192, 192);
+}
+
+.social-media-icons {
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.footer-social-media-link {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border: 1.5px solid rgb(192, 192, 192);
+    border-radius: 50%;
+    margin-left: 6px;
+    margin-right: 6px;
+}
+
+.footer-social-media-link-action {
+    width: 100%;
+    height: 100%;
+}
+
+.footer-social-media-link i {
+    font-size: 23px;
+    color: rgb(192, 192, 192);
+}
+
+.footer-social-media-link:hover {
+    background-color: rgb(192, 192, 192);
+}
+
+.footer-social-media-link:hover i {
+    color: black;
+}
+
+.copyright-information {
+    padding-top: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+    width: 80%;
+    text-align: center;
+    padding-bottom: 40px;
+}

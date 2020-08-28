@@ -1,17 +1,8 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 import Header from './Header';
+import Footer from './Footer';
 import './global.css';
-
-class Footer extends Component {
-    render() {
-        return (
-            <div id="footer-wrapper">
-                Footer
-            </div>
-        )
-    }
-}
 
 /**
  * Wrapper component for each page to include the header, footer, and properly format content within page.
