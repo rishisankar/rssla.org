@@ -27,7 +27,7 @@ class Programs extends Component {
     updatePanelHeight() {
         if (window.innerWidth > 840) {
             this.setState({ 
-                longestPanelHeight: window.getComputedStyle(document.getElementById("programs-spiel-panel")).height });
+                longestPanelHeight: window.getComputedStyle(document.getElementById("programs-longest-panel")).height });
         } else {
             this.setState({longestPanelHeight: null});
         }
@@ -38,14 +38,14 @@ class Programs extends Component {
             <RSSPage className="programs">
                 <Banner 
                     text="programs"
-                    bgr="/images/2019_Conference.jpg"
+                    bgr="/images/banners/2019_Conference.jpg"
                     darkness="0.1"
                     valign="65%"
                 />
 
                 <ImageTextPanel 
                     heading="l.a.m.p."
-                    image="/images/2020_broomball2.jpg"
+                    image="/images/images/2020_broomball2.jpg"
                     align="left"
                     height={this.state.longestPanelHeight}
                 >       
@@ -56,11 +56,11 @@ class Programs extends Component {
                     access to SAT and ACT preparation along with workshops regarding
                     financial literacy, college applications, and more.
                 </ImageTextPanel>
+                
                 <ImageTextPanel 
                     heading="s.p.i.e.l."
-                    image="/images/2020_broomball2.jpg"
+                    image="/images/images/2018_spiel.png"
                     align="right"
-                    id="programs-spiel-panel"
                 >
                     SPIEL stands for Students Presenting, Innovating, Entertaining 
                     and Learning. Inspired by TED Talks, this campus-wide speaker 
@@ -71,11 +71,11 @@ class Programs extends Component {
                     <p/>
                     In the past, SPIEL presenters have addressed a variety of topics, 
                     ranging from mental health to ground-breaking student research.
-
                 </ImageTextPanel>
+
                 <ImageTextPanel 
                     heading="service"
-                    image="/images/2020_broomball2.jpg"
+                    image="/images/images/2018_Beach_Cleanup.jpg"
                     align="left"
                     height={this.state.longestPanelHeight}
                 >
@@ -85,17 +85,33 @@ class Programs extends Component {
                 </ImageTextPanel>
                 <ImageTextPanel 
                     heading="mentorship"
-                    image="/images/2020_broomball2.jpg"
+                    image="/images/images/2018_MOH-3.JPG"
                     align="right"
                     height={this.state.longestPanelHeight}
+                    id="programs-longest-panel"
                 >
                     Our peer mentors are upperclassmen who have recently been in the shoes of
                     our new RSSers and want to give back by helping them learn the ropes of UCLA!
+                    <p/>
                     Our alumni mentors are graduated RSSers who have broken through their industries
                     and can provide professional advice to aspiring professionals.
+                    <p/>
                     Finally, our faculty mentorship program pairs RSSers and faculty members to 
                     cultivate relationships and help members learn more about their passions and 
                     fields of study.
+                </ImageTextPanel>
+
+                <ImageTextPanel 
+                    heading="other events"
+                    image="/images/images/2020_broomball2.jpg"
+                    align="left"
+                    height={this.state.longestPanelHeight}
+                >
+                    Throughout the school year, we host numerous events for our Regents Scholars,
+                    both social and professional. In the past, we have held resume reviews,
+                    interview workshops, Dinner with the Dean, company tours, and more! Our social 
+                    events include frequent dorm dinners and game nights, as well as our yearly
+                    traditions like broomball, kayaking, Friendsgiving, retreat, and banquet.
                 </ImageTextPanel>
             </RSSPage>
         )

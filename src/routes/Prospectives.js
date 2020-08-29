@@ -12,8 +12,8 @@ class Prospectives extends Component {
             <RSSPage className="prospectives">
                 <Banner 
                     text="prospectives" 
-                    bgr="/images/2019_Conference.jpg"
-                    darkness="0.1"
+                    bgr="/images/banners/2017_Conference.jpg"
+                    darkness="0"
                     valign="65%"
                 />
 

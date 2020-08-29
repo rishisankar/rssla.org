@@ -18,7 +18,7 @@ class Home extends Component {
 
                 <ImageTextPanel 
                     heading="about us"
-                    image="/images/2020_broomball2.jpg"
+                    image="/images/images/2019_induction.jpg"
                     align="left"
                 >
                     The Regents Scholar Society is composed of students with 
@@ -30,7 +30,14 @@ class Home extends Component {
                     We strive to support our members and the local community
                     through our various internal and external programs, including
                     service events, leadership opportunities, and the Los Angeles
-                    Mentorship Program.
+                    Mentorship Program. We frequently host academic and social
+                    events for our members to make friends, bond with our community, 
+                    and thrive.
+                    <p/>
+                    Each Regents Scholar is awarded amazing perks: a $2000 scholarship,
+                    priority course enrollment for up to 13 units, four years of
+                    housing, mentorship from peers, faculty, and alumni, professional
+                    events, access to our test bank, and much more! 
                 </ImageTextPanel>
             </RSSPage>
         )
