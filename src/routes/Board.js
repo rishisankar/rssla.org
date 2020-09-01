@@ -132,9 +132,9 @@ class Board extends Component {
             <RSSPage className="board">
                 <Banner 
                     text="executive board"
-                    bgr="/images/banners/2019_newboard.JPG"
+                    bgr="/images/banners/royce.jpg"
                     darkness="0"
-                    valign="40%"
+                    valign="55%"
                 />
                 <div className="board-wrapper">
                     {this.state.width > 840 ? contents :

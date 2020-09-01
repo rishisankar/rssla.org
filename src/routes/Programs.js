@@ -45,7 +45,7 @@ class Programs extends Component {
 
                 <ImageTextPanel 
                     heading="l.a.m.p."
-                    image="/images/images/2020_broomball2.jpg"
+                    image="/images/images/lamp.jpg"
                     align="left"
                     height={this.state.longestPanelHeight}
                 >       

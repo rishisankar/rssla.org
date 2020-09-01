@@ -23,7 +23,7 @@ class Gallery extends Component {
                 />
                 <div className="gallery-content">
                     <GalleryRow>
-                        <GalleryCol flex="1.18">
+                        <GalleryCol flex="1.1787">
                             <GalleryEntry
                                 src="2020_retreat_bridge.jpg"
                                 alt="photo"
@@ -90,7 +90,7 @@ class Gallery extends Component {
                                 alt="photo"
                             />
                         </GalleryCol>
-                        <GalleryCol pl="3vw" flex="1.29">
+                        <GalleryCol pl="3vw" flex="1.289">
                             <GalleryEntry 
                                 src="donya2.JPG"
                                 alt="photo"
@@ -120,7 +120,7 @@ class Gallery extends Component {
                     </GalleryRow>
 
                     <GalleryRow>
-                        <GalleryCol flex="2.14">
+                        <GalleryCol flex="2.1095">
                             <GalleryEntry
                                 src="2019_bonfire.jpg"
                                 alt="photo"
@@ -134,6 +134,28 @@ class Gallery extends Component {
                             />
                             <GalleryEntry 
                                 src="2020_retreat_group_2.jpg"
+                                alt="photo"
+                            />
+                        </GalleryCol>
+                    </GalleryRow>
+
+                    <GalleryRow>
+                        <GalleryCol flex="1.005">
+                            <GalleryEntry
+                                src="2019_induction.jpg"
+                                alt="photo"
+                            />
+                        </GalleryCol>
+                        <GalleryCol pl="3vw" flex="1">
+                            <GalleryEntry 
+                                src="2019_newboard.JPG"
+                                alt="photo"
+                                pb="2.63vw"
+                            />
+                        </GalleryCol>
+                        <GalleryCol pl="3vw" flex="1">
+                            <GalleryEntry 
+                                src="2018_Kayaking_2.JPG"
                                 alt="photo"
                             />
                         </GalleryCol>

@@ -57,7 +57,7 @@
 
 .contact .send-message-button:hover {
     cursor: pointer;
-    background-color: #444444;
+    background-color: #525252;
 }
 
 @media (max-width: 700px) {
