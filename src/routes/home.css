@@ -1,5 +1,6 @@
 .home #three_pillars_panel { 
-    background-color: #080808;
+    background-color: #0e0e0e;
+    padding-bottom: 10px;
 }
 
 .home .sponsor-wrapper {
@@ -26,6 +27,10 @@
 }
 
 @media (max-width: 700px) {
+    .home #three_pillars_panel { 
+        background-color: #1b1b1b;
+    }
+
     .home .sponsor-wrapper {
         display: block;
     }

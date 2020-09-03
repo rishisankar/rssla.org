@@ -68,7 +68,7 @@ class Home extends Component {
                         </BenefitWrapper>
                     </TextPanel>
 
-                    <TextPanel heading="sponsors">
+                    <TextPanel heading="sponsors" id="sponsors_panel">
                         <div className="sponsor-wrapper">
                             <div className="sponsor-div" id="blueprint-div">
                                 <img className="sponsor-img" src="/images/sponsors/blueprint.png" alt="blueprint"/>
