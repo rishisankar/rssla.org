@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import RSSPage from '../util/RSSPage';
 import Banner from '../util/Banner';
 import {TextPanel} from '../util/TextPanel';
+import {BenefitDescription, BenefitWrapper} from '../util/BenefitDescription';
 
 import './prospectives.css';
 
@@ -21,7 +22,7 @@ class Prospectives extends Component {
                     The Regents Scholarship is awarded to up to 100 incoming freshmen 
                     and transfer students. Alongside membership in the Regents Scholar Society, 
                     all Regents Scholars receive:
-                    <div className="scholarship-benefits-wrapper">
+                    <BenefitWrapper>
                         <BenefitDescription
                             heading="$2000"
                             subheading="honorarium"
@@ -44,13 +45,13 @@ class Prospectives extends Component {
                             bgr="house.png"
                             scale="90%"
                         />
-                    </div>
+                    </BenefitWrapper>
                 </TextPanel>
 
                 <TextPanel heading="what we offer" id="second-text-panel">
                     We want our Regents Scholars to grow, to succeed, and to thrive. That's why we provide
                     the following opportunities:
-                    <div className="scholarship-benefits-wrapper">
+                    <BenefitWrapper>
                         <BenefitDescription
                             smallheading="mentorship &amp; families"
                             desc="All freshmen are able to match with a peer mentor and join a mentorship family. Your
@@ -71,36 +72,10 @@ class Prospectives extends Component {
                                 and utilize all of our resources! Applications open every fall quarter."
                             bgr="handshake.png"
                         />
-                    </div>
+                    </BenefitWrapper>
                 </TextPanel>
 
             </RSSPage>
-        )
-    }
-}
-
-class BenefitDescription extends Component {
-    render() {
-        const imgHeight = {
-            height: this.props.scale == null ? "100%" : this.props.scale
-        }
-        return (
-            <div className="scholarship-benefit">
-                <div className="benefit-banner">
-                    <img src={`/images/bg_icons/${this.props.bgr}`} alt={this.props.subheading} className="benefit-banner-img" style={imgHeight} />
-                    <div className="benefit-banner-text">
-                        {this.props.smallheading == null ?
-                            <React.Fragment>
-                                <div className="benefit-banner-text-heading">{this.props.heading}</div>
-                                <div className="benefit-banner-text-subheading">{this.props.subheading}</div>
-                            </React.Fragment>
-                        :
-                            <div className="benefit-banner-text-smallheading">{this.props.smallheading}</div>
-                        }
-                    </div>
-                </div>
-                <div className="benefit-banner-desc">{this.props.desc}</div>
-            </div>
         )
     }
 }

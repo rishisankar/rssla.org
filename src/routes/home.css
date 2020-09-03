@@ -1,0 +1,45 @@
+.home #three_pillars_panel { 
+    background-color: #080808;
+}
+
+.home .sponsor-wrapper {
+    width: 100%;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home .sponsor-div {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+}
+
+.home .sponsor-img {
+    filter: invert(100%);
+    width: 60%;
+}
+
+.home #blueprint-div {
+    margin-top: -1vw;
+}
+
+@media (max-width: 700px) {
+    .home .sponsor-wrapper {
+        display: block;
+    }
+
+    .home #blueprint-div {
+        margin-top: 0;
+        padding-top: 4vw;
+    }
+
+    .home #nextstep-div {
+        padding-top: 9vw;
+    }
+
+    .home #kaplan-div {
+        padding-top: 5.5vw;
+    }
+}

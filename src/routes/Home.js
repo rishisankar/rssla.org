@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 
 import RSSPage from '../util/RSSPage';
 import Banner from '../util/Banner';
-import {ImageTextPanel} from '../util/TextPanel';
+import {TextPanel, ImageTextPanel} from '../util/TextPanel';
+import {BenefitDescription, BenefitWrapper} from '../util/BenefitDescription';
 
 import './home.css';
 
@@ -42,6 +43,45 @@ class Home extends Component {
                     housing, mentorship from peers, faculty, and alumni, professional
                     events, access to our test bank, and much more! 
                 </ImageTextPanel>
+
+                <TextPanel heading="the three pillars" id="three_pillars_panel">
+                    <BenefitWrapper>
+                            <BenefitDescription
+                                smallheading="scholarship"
+                                desc="Members of the Regents Scholar Society exemplify academic excellence, 
+                                    both in and out of the classroom."
+                                bgr="scholarship.png"
+                            />
+                            <BenefitDescription
+                                smallheading="service"
+                                desc="The Regents Scholar Society dedicates itself to improving the local community. 
+                                    We participate in beach clean-ups, tutoring through the Los Angeles Mentorship Program, 
+                                    and outreach."
+                                bgr="service2.png"
+                            />
+                            <BenefitDescription
+                                smallheading="leadership"
+                                desc="Members of the Regents Scholar Society work as driven leaders, both within campus 
+                                    organizations and in the local, state, and national community."
+                                bgr="leadership2.png"
+                            />
+                        </BenefitWrapper>
+                    </TextPanel>
+
+                    <TextPanel heading="sponsors">
+                        <div className="sponsor-wrapper">
+                            <div className="sponsor-div" id="blueprint-div">
+                                <img className="sponsor-img" src="/images/sponsors/blueprint.png" alt="blueprint"/>
+                            </div>
+                            <div className="sponsor-div" id="nextstep-div">
+                                <img className="sponsor-img" src="/images/sponsors/nextstep.png" alt="nextstep"/>
+                            </div>
+                            <div className="sponsor-div" id="kaplan-div">
+                                <img className="sponsor-img" src="/images/sponsors/kaplan.png" alt="kaplan"/>
+                            </div>
+                        </div>
+                    </TextPanel>
+
             </RSSPage>
         )
     }

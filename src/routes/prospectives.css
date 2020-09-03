@@ -1,114 +1,15 @@
-.prospectives .scholarship-benefits-wrapper {
-    padding-top: 15px;
-    text-align: center;
-}
-
-.prospectives .scholarship-benefit {
-    width: 20%;
-    display: inline-block;
-    vertical-align: top;
-    padding-left: 45px;
-    padding-right: 45px;
-}
-
-.prospectives .benefit-banner {
-    position: relative;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: calc(30px + 10vw);
-}
-
-.prospectives .benefit-banner-img {
-    height: 100%;
-}
-
-.prospectives .benefit-banner-text {
-    position: absolute;
-    min-width: 80%;
-}
-
-.prospectives .benefit-banner-text-heading {
-    font-family: "Kollektif-Bold";
-    font-size: calc(10px + 3vw);
-    line-height: calc(10px + 2vw);
-}
-
-.prospectives .benefit-banner-text-subheading {
-    font-family: "Kollektif";
-    font-size: calc(10px + 0.8vw);
-}
-
-.prospectives .benefit-banner-text-smallheading {
-    font-family: "Kollektif";
-    font-size: calc(20px + 0.8vw);
-    line-height: calc(17px + 0.8vw);
-}
-
-.prospectives .benefit-banner-desc {
-    font-size: calc(6px + 0.8vw);
-}
-
 .prospectives #first-text-panel {
     padding-bottom: 0px;
 }
 
 @media (max-width: 840px) {
-
     .prospectives .text-panel-content {
         font-size: calc(3px + 1.5vw);
         margin-top: calc(-2px - 0.5vw);
-    }
-
-    .prospectives .scholarship-benefit {
-        width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding: 0 0 30px 0;
-        margin: 0;
-    }
-
-    .prospectives .benefit-banner {
-        width: 35%;
-        height: 18.6vw;
-    }
-
-    .prospectives .benefit-banner-desc {
-        width: 65%;
-    }
-    
-    .prospectives .benefit-banner-img {
-        height: 100%;
-    }
-    
-    .prospectives .benefit-banner-text {
-        position: absolute;
-        min-width: 80%;
-    }
-    
-    .prospectives .benefit-banner-text-heading {
-        font-size: 5.7vw;
-        line-height: 4.2vw;
-    }
-    
-    .prospectives .benefit-banner-text-subheading {
-        font-size: 2.4vw;
-    }
-    
-    .prospectives .benefit-banner-text-smallheading {
-        font-size: 3.6vw;
-        line-height: 3.24vw;
-    }
-    
-    .prospectives .benefit-banner-desc {
-        font-size: 1.92vw;
     }
 
     .prospectives #second-text-panel {
         padding-top: 30px;
         padding-bottom: 10px;
     }
-
 }
