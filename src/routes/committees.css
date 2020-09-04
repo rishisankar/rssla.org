@@ -1,0 +1,70 @@
+.committees #committees-text-panel {
+    background-color: rgb(32, 32, 32);
+}
+
+.committees .committees-list-wrapper {
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: center;
+    padding-top: 1%;
+}
+
+.committees .committee-entry-wrapper {
+    padding: 1%;
+    width: 60%;
+    color: white;
+    font-family: 'Roboto bold', sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+.committees .committee-text-wrapper {
+    display: inline-block;
+    width: 86%;
+}
+
+.committees .committee-logo {
+    width: 14%;
+    padding-top: 14%;
+    position: relative;
+    border-radius: 50%;
+    border: 0.23vw solid #666666;
+    background-color: #505050;
+    margin: auto;
+    display: inline-block;
+}
+
+.committees .committee-img {
+    position: absolute;
+    width: 70%;
+    margin: auto;
+    top: 0; left: 0; bottom: 0; right: 0;
+
+}
+
+.committees .committee-text {
+    width: 94;
+    padding-left: 6%;
+}
+
+.committees .committee-name {
+    font-size: 1.7vw;
+    font-weight: 700;
+}
+
+.committees .committee-leaders {
+    font-size: 1.1vw;
+    font-style: italic;
+    color: #e6e6e6;
+}
+
+.committees .committee-description {
+    padding-top: 0.5vw;
+    font-size: 1.2vw;
+    color: white;
+}
