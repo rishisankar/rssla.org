@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 import RSSPage from '../util/RSSPage';
 import Banner from '../util/Banner';
-import {TextPanel, ImageTextPanel} from '../util/TextPanel';
+import {ImageTextPanel, TextPanel} from '../util/TextPanel';
 
 import './committees.css';
 
@@ -37,27 +37,23 @@ class Committees extends Component {
                     Committees are a way for members of the Regents Scholar Society to become more involved with
                     the RSS community and take on a leadership role within the society. Our committees shape the
                     direction of our society: committee members help organize events and activities, raise funds,
-                    work on design and tech projects for the society, and much more! Each committee is led by
+                    work on design and tech projects for the society, and much more!
+                    <p/>
+                    Each committee is led by
                     one or more board members and will have virtual social activities to help members get to know 
                     one another and engage with RSS.
-                    <p/>
-                    2020-2021 Committee Applications will open a few weeks after fall quarter starts. The five
-                    committees this year are:
-                    <ul>
-                        <li>A.C.E. Committee</li>
-                        <li>Funding Committee</li>
-                        <li>Special Events Committee</li>
-                        <li>Tech Committee</li>
-                        <li>Design Committee</li>
-                    </ul>
                 </ImageTextPanel>
 
-                <TextPanel heading="join a committee!">
+                <TextPanel 
+                    heading="join a committee!"
+                    id="join-committee-panel"
+                >
+                    2020-2021 Committee Applications will open a few weeks after fall quarter starts. There are
+                    five committees you can join this year:
                     <div className="committees-list-wrapper">
                         <CommitteeEntry
                             name="A.C.E. Committee"
                             leaders="Andrew, Anusha, Zack, and Tina"
-                            img="cards.png"
                         >
                             The A.C.E. Committee manages activities, community service, and educational programs. 
                             The committee helps plan fun and afforable social activities, arranges community 
@@ -66,7 +62,6 @@ class Committees extends Component {
                         <CommitteeEntry
                             name="Funding Committee"
                             leaders="Aditya and Jason"
-                            img="cards.png"
                         >
                             The Funding Committee is in charge of fundraising, including brainstorming innovative ideas
                             and organizing the logistics fof the fundraiser. The Funding Committee also serves as 
@@ -75,7 +70,6 @@ class Committees extends Component {
                         <CommitteeEntry
                             name="Special Events Committee"
                             leaders="Rebecca and Carolyn"
-                            img="cards.png"
                         >
                             The Special Events Commitee plans the Society's large-scale events, such as S.P.I.E.L. 
                             and winter retreat. In addition, the committee advocates for the needs of all members, 
@@ -84,7 +78,6 @@ class Committees extends Component {
                         <CommitteeEntry
                             name="Tech Committee"
                             leaders="Rishi"
-                            img="cards.png"
                         >
                             The Tech Committee works on tech-related projects with a focus on improving the society.
                             Committee members help maintain and add new features/pages to the RSS website,
@@ -93,7 +86,6 @@ class Committees extends Component {
                         <CommitteeEntry
                             name="Design Committee"
                             leaders="Jenny"
-                            img="paint.png"
                         >
                             The Design Committee creates digital flyers and design RSS merch, as well as work on designs
                             for RSS projects. The committee also helps manage our social media accounts and promote our
@@ -111,16 +103,9 @@ class CommitteeEntry extends Component {
     render() {
         return (
             <div className="committee-entry-wrapper">
-                <div className="committee-logo">
-                    <img className="committee-img" src={`/images/committee_icons/${this.props.img}`} alt="img"/>
-                </div>
-                <div className="committee-text-wrapper">
-                    <div className="committee-text">
-                        <div className="committee-name">{this.props.name}</div>
-                        <div className="committee-leaders">Led by {this.props.leaders}</div>
-                        <div className="committee-description">{this.props.children}</div>
-                    </div>
-                </div>
+                <div className="committee-name">{this.props.name}</div>
+                <div className="committee-leaders">Led by {this.props.leaders}</div>
+                <div className="committee-description">{this.props.children}</div>
             </div>
         )
     }

@@ -1,5 +1,5 @@
 .committees #committees-text-panel {
-    background-color: rgb(32, 32, 32);
+    background-color: #181818;
 }
 
 .committees .committees-list-wrapper {
@@ -12,39 +12,17 @@
     align-items: flex-start;
     align-content: center;
     padding-top: 1%;
+    text-align: left;
 }
 
 .committees .committee-entry-wrapper {
-    padding: 1%;
-    width: 60%;
-    color: white;
-    font-family: 'Roboto bold', sans-serif;
-    display: flex;
-    align-items: center;
-}
-
-.committees .committee-text-wrapper {
-    display: inline-block;
-    width: 86%;
-}
-
-.committees .committee-logo {
-    width: 14%;
-    padding-top: 14%;
-    position: relative;
-    border-radius: 50%;
-    border: 0.23vw solid #666666;
-    background-color: #505050;
-    margin: auto;
-    display: inline-block;
-}
-
-.committees .committee-img {
-    position: absolute;
+    padding: 15px;
     width: 70%;
-    margin: auto;
-    top: 0; left: 0; bottom: 0; right: 0;
-
+    border: 1px solid white;
+    border-radius: 0.1vw;
+    color: white;
+    margin-top: 25px;
+    font-family: 'Roboto bold', sans-serif;
 }
 
 .committees .committee-text {
@@ -53,18 +31,73 @@
 }
 
 .committees .committee-name {
-    font-size: 1.7vw;
+    font-size: 2vw;
     font-weight: 700;
 }
 
 .committees .committee-leaders {
-    font-size: 1.1vw;
+    font-size: 1.5vw;
     font-style: italic;
     color: #e6e6e6;
 }
 
 .committees .committee-description {
-    padding-top: 0.5vw;
-    font-size: 1.2vw;
+    padding-top: 0.8vw;
+    font-size: 1.6vw;
     color: white;
+}
+
+@media (min-width: 1350px) {
+    .committees .committees-list-wrapper {
+        align-items: stretch;
+    }
+
+    .committees .committee-entry-wrapper {
+        flex: 1;
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+
+    .committees .committee-name {
+        font-size: 1.12vw;
+    }
+    
+    .committees .committee-leaders {
+        font-size: 0.8vw;
+    }
+    
+    .committees .committee-description {
+        padding-top: 0.4vw;
+        font-size: 0.9vw;
+    }
+
+}
+
+@media (max-width: 840px) {
+    .committees #committees-text-panel {
+        background-color: black;
+    }
+
+    .committees .committee-entry-wrapper {
+        width: 85%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
+    .committees .committee-name {
+        font-size: calc(12px + 1.4vw);
+    }
+    
+    .committees .committee-leaders {
+        font-size: calc(9px + 0.9vw);
+    }
+    
+    .committees .committee-description {
+        padding-top: calc(5px + 0.5vw);
+        font-size: calc(10px + 1vw);
+    }
+
+    .committees .text-panel {
+        padding: 10%;
+    }
 }
