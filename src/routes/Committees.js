@@ -56,7 +56,7 @@ class Committees extends Component {
                             leaders="Andrew, Anusha, Zack, and Tina"
                         >
                             The A.C.E. Committee manages activities, community service, and educational programs. 
-                            The committee helps plan fun and afforable social activities, arranges community 
+                            The committee helps plan fun and affordable social activities, arranges community 
                             service opportunities, and fosters engagement and bonding between members of the society. 
                         </CommitteeEntry>
                         <CommitteeEntry
@@ -64,14 +64,14 @@ class Committees extends Component {
                             leaders="Aditya and Jason"
                         >
                             The Funding Committee is in charge of fundraising, including brainstorming innovative ideas
-                            and organizing the logistics fof the fundraiser. The Funding Committee also serves as 
+                            and organizing the logistics for the fundraisers. The Funding Committee also serves as 
                             liaisons between RSS and corporate sponsors.
                         </CommitteeEntry>
                         <CommitteeEntry
                             name="Special Events Committee"
                             leaders="Rebecca and Carolyn"
                         >
-                            The Special Events Commitee plans the Society's large-scale events, such as S.P.I.E.L. 
+                            The Special Events Committee plans the Society's large-scale events, such as S.P.I.E.L. 
                             and winter retreat. In addition, the committee advocates for the needs of all members, 
                             from first to fourth years, transfers, and non-traditional students.
                         </CommitteeEntry>
