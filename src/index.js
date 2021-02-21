@@ -12,6 +12,7 @@ import Board from './routes/Board';
 import Committees from './routes/Committees';
 import Gallery from './routes/Gallery';
 import Prospectives from './routes/Prospectives';
+import ProspectivesOld from './routes/ProspectivesOld';
 import Contact from './routes/Contact';
 
 ReactDOM.render(
@@ -32,6 +33,7 @@ function Routes(props) {
         <Route exaxt path="/gallery"><Gallery /></Route>
         <Route exaxt path="/prospectives"><Prospectives /></Route>
         <Route exaxt path="/contact"><Contact /></Route>
+        <Route exaxt path="/prospectivesold"><ProspectivesOld /></Route>
       </Switch>
     </BrowserRouter>
   )

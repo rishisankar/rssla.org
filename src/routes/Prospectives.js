@@ -13,12 +13,13 @@ class Prospectives extends Component {
             <RSSPage className="prospectives">
                 <Banner 
                     text="prospectives" 
-                    bgr="/images/banners/2017_Conference.jpg"
-                    darkness="0"
+                    bgr="/images/prospectives/banner.png"
+                    darkness="0.2"
                     valign="65%"
                 />
 
-                <TextPanel heading="the scholarship" id="first-text-panel">
+                { /* Brandon */ }
+                <TextPanel heading="we are rss" id="we-are-rss-panel">
                     The Regents Scholarship is awarded to up to 100 incoming freshmen 
                     and transfer students. Alongside membership in the Regents Scholar Society, 
                     all Regents Scholars receive:
@@ -48,33 +49,35 @@ class Prospectives extends Component {
                     </BenefitWrapper>
                 </TextPanel>
 
-                <TextPanel heading="what we offer" id="second-text-panel">
-                    We want our Regents Scholars to grow, to succeed, and to thrive. That's why we provide
-                    the following opportunities:
-                    <BenefitWrapper>
-                        <BenefitDescription
-                            smallheading="mentorship &amp; families"
-                            desc="All freshmen are able to match with a peer mentor and join a mentorship family. Your
-                                mentor can guide you through choosing classes, joining student organizations, and any
-                                advice you need. Your mentorship family is a group of RSSers you will become close friends with!"
-                            bgr="family.png"
-                        />
-                        <BenefitDescription
-                            smallheading="academic resources"
-                            desc="We offer a variety of different educational resources for our members to take advantage of!
-                                Whether it be resume reviews, information sessions, workshops, our test bank, or course planning 
-                                events - we aim to ensure that each RSS member has the resources they need to succeed."
-                            bgr="closedbook.png"
-                        />
-                        <BenefitDescription
-                            smallheading="leadership opportunities"
-                            desc="Through our committees, you can engage with the society, develop leadership skills, 
-                                and utilize all of our resources! Applications open every fall quarter."
-                            bgr="handshake.png"
-                        />
-                    </BenefitWrapper>
+
+
+                { /* Daniel */ }
+                <TextPanel heading="welcome to our overnight stay program!">
+                    asdf
                 </TextPanel>
 
+
+                { /* Rishi */ }
+                <TextPanel heading="osp 1" id="osp_panel">
+                    <div className="osp_description">
+                        month 00 - month 00
+                    </div>
+                    <div className="itinerary_wrapper">
+                        itinerary
+                    </div>
+                </TextPanel>
+
+                { /* Ray */ }
+                <TextPanel heading="meet your coordinators!">
+                asdf
+                </TextPanel>
+
+                { /* will copy/paste osp 1 stuff for osp 2 after we finish */ }
+
+                { /* Christian */ }
+                <TextPanel heading="contact us!">
+                    asdf
+                </TextPanel>
             </RSSPage>
         )
     }

@@ -1,15 +1,34 @@
-.prospectives #first-text-panel {
-    padding-bottom: 0px;
+.prospectives .text-panel {
+    padding-top: 0px;
+}
+
+.prospectives #we-are-rss-panel {
+    padding-top: 60px;
+}
+
+.prospectives .osp_description {
+    float: left;
+    width: 50%;
+    padding-top: 3px;
+    font-size: calc(8px + 0.7vw);
+    font-style: italic;
+}
+
+.prospectives .itinerary_wrapper {
+    float: right;
+    width: calc(50% - 8px);
+    border-bottom: 4px solid white;
+    border-left: 4px solid white;
+    border-right: 4px solid white;
+}
+
+.prospectives #osp_panel .text-panel-content {
+    padding-top: 0;
 }
 
 @media (max-width: 840px) {
-    .prospectives .text-panel-content {
+    .prospectives #we-are-rss-panel .text-panel-content {
         font-size: calc(3px + 1.5vw);
         margin-top: calc(-2px - 0.5vw);
-    }
-
-    .prospectives #second-text-panel {
-        padding-top: 30px;
-        padding-bottom: 10px;
     }
 }
