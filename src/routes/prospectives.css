@@ -23,12 +23,35 @@
 }
 
 .prospectives #osp_panel .text-panel-content {
-    padding-top: 0;
+    padding-top: 0px;
 }
 
 @media (max-width: 840px) {
     .prospectives #we-are-rss-panel .text-panel-content {
         font-size: calc(3px + 1.5vw);
-        margin-top: calc(-2px - 0.5vw);
     }
+}
+.prospectives #we-are-rss-panel .text-panel-content {
+    padding-top: 0px;
+    
+}
+.prospectives .row {
+    display: flex;
+}
+.prospectives .benefits {
+    float: left;
+    width: 70%;
+    padding-right: 1%;
+    padding-top: 15px;
+}
+
+.prospectives .letter_wrapper {
+    float: right;
+    width: calc(30% - 8px);
+    border-bottom: 4px solid white;
+    border-left: 4px solid white;
+    border-right: 4px solid white;
+    padding-top: 15px;
+    padding-right: 1%;
+    padding-left: 1%;
 }
