@@ -52,9 +52,20 @@ class Prospectives extends Component {
 
 
                 { /* Daniel */ }
-                <TextPanel heading="welcome to our overnight stay program!">
-                    asdf
-                </TextPanel>
+                    <div className= "welcome_wrapper">
+                    <h2 className= "welcome_header"> welcome to our overnight stay program!</h2> 
+                     <div className= "welcome_to_osp">
+                            Congratulations on receiving the Regents Scholarship! The overnight stay program (OSP) provides prospectives a valuable opportunity to learn 
+                            more about the Regents Scholar Society and UCLA. This year, the RSS OSP Coordinators have planned an interactive online experience.
+                            A key aspect of every OSP includes Q&amp;A panels for academics and campus life, social activities, and more. In order to get the full OSP experience, 
+                            we highly recommend you arrange your schedule to let you attend the session from beginning to end. We're excited to see you! 
+                       
+                    </div> 
+                    </div>
+                    <div className= "welcome_to_osp_image">
+                        <img src="/images/prospectives/osp mountain cropped.jpg" alt="osp banner" className= "osp_image"/>
+                    </div>
+               
 
 
                 { /* Rishi */ }
