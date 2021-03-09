@@ -14,6 +14,53 @@
     font-style: italic;
 }
 
+.prospectives .welcome_header {
+    padding: 40px;
+    padding-bottom: 0px;
+    background-color: white;
+    font-family: "Kollektif";
+    color: black;
+    font-size: calc(20px + 1.1vw);
+    line-height: calc(24px + 1.2vw);
+    border-bottom: 4px solid white;
+    text-align: center;
+    margin: 0px auto;
+}
+
+.prospectives .welcome_wrapper {
+    margin:0px auto;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: black;
+}
+
+.prospectives .welcome_to_osp{
+    padding: 40px;
+    padding-top: 0px;
+    padding-right: 40px;
+    padding-left: 40px;
+    text-align: center;
+    background-color:white;
+    font-family: "Roboto", sans-serif;
+    font-size: calc(10px + 0.5vw);
+    color: black;
+}
+
+.prospectives .welcome_to_osp_image{
+    background-color: black;
+    margin: auto;
+    width: 100%;
+}
+
+.prospectives .osp_image{
+    background-color: black;
+    padding-left: 10%;
+    margin-left: auto;
+    margin-right: auto;
+     max-width: 80%;
+     max-height: 80%;
+}
+
 .prospectives .itinerary_wrapper {
     float: right;
     width: calc(50% - 8px);
