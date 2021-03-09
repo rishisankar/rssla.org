@@ -14,6 +14,31 @@
     font-style: italic;
 }
 
+.prospectives #we-are-rss-panel .text-panel-content {
+    padding-top: 0px;
+
+}
+.prospectives .we_are_rss_wrapper {
+    display: flex;
+}
+.prospectives .benefits_list {
+    float: left;
+    width: 70%;
+    padding-right: 1%;
+    padding-top: 15px;
+}
+
+.prospectives .letter_wrapper {
+    float: right;
+    width: calc(30% - 8px);
+    border-bottom: 4px solid white;
+    border-left: 4px solid white;
+    border-right: 4px solid white;
+    padding-top: 15px;
+    padding-right: 1%;
+    padding-left: 1%;
+} 
+
 .prospectives .welcome_header {
     padding: 40px;
     padding-bottom: 0px;
