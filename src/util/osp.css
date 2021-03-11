@@ -1,0 +1,161 @@
+.osp {
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin: 0;
+    width: calc(100% - 120px);
+    background-color: black;
+}
+
+.osp .osp_mountains {
+    width: 100%;
+}
+
+.osp .osp_mountains_img {
+    display: block;
+    margin: auto;
+    max-height: 30vw;
+}
+
+.osp .osp_heading {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.osp .osp_heading_text {
+    color: white;
+    font-family: "Kollektif";
+    padding-right: 10px;
+    font-size: calc(35px + 1.8vw);
+}
+
+.osp .osp_heading_line {
+    flex: 1;
+    background-color: white;
+    height: 5px;
+    border: none;
+    margin-bottom: 10px;
+}
+
+.osp .osp_content_wrapper {
+    color: white;
+    display: flex;
+    max-width: 1500px;
+    margin: auto;
+}
+
+.osp .osp_content_image_wrapper {
+    display: inline-block;
+    width: 40%;
+    background-color: white;
+    flex: 1;
+}
+
+.osp .osp_content {
+    flex: 1;
+}
+
+.osp .osp_content_day_wrapper {
+    width: calc(100% - 30px);
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+.osp .osp_content_label {
+    font-family: "Kollektif";
+    font-style: italic;
+    font-size: calc(25px + 0.8vw);
+}
+
+.osp .osp_content_itinerary_wrapper {
+    padding-left: 30px;
+}
+
+.osp #first_osp_label {
+    padding-top: 0;
+}
+
+.osp .osp_event_wrapper {
+    padding-top: 10px;
+    width: 100%;
+    display: flex;
+}
+
+.osp .osp_event_time {
+    flex: 1;
+    padding-right: 25px;
+    font-size: calc(12px + 0.6vw);
+    font-family: "Kollektif";
+    font-style: italic;
+}
+
+.osp .osp_event_desc {
+    flex: 6;
+}
+
+.osp .osp_event_desc_heading {
+    font-size: calc(12px + 0.6vw);
+    font-family: "Kollektif";
+}
+
+.osp .osp_event_desc_desc {
+    font-size: calc(8px + 0.4vw);
+    color: #c5c5c5;
+    font-style: italic;
+}
+
+.osp .osp_coord_wrapper {
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.osp .osp_coord_header {
+    font-family: "Kollektif";
+    font-size: calc(20px + 0.8vw);
+}
+
+.osp .osp_coord_flexbox {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: center;
+}
+
+.osp .osp_profile {
+    padding: 2.5%;
+    width: 20%;
+    font-family: 'Roboto bold', sans-serif;
+}
+
+.osp .osp_profile_img {
+    width: 70%;
+    padding-top: 70%;
+    margin: auto;
+}
+
+.osp .osp_profile_name {
+    height: 40px;
+    width: 100%;
+    margin-top: 20px;
+    line-height: 40px;
+}
+
+.osp .osp_profile_year {
+
+}
+
+.osp .osp_profile_major {
+
+}
+
+.osp .osp_profile_desc {
+
+}

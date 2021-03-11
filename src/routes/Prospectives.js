@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 
 import RSSPage from '../util/RSSPage';
 import Banner from '../util/Banner';
+import OSP from '../util/OSP';
 import {TextPanel} from '../util/TextPanel';
 import {BenefitDescription, BenefitWrapper} from '../util/BenefitDescription';
 
@@ -41,7 +42,6 @@ class Prospectives extends Component {
 
                 <ProspectivesIntro width={this.state.width} />
 
-                { /* Daniel */ }
                 <div className="welcome_wrapper">
                     <h2 className= "welcome_header"> welcome to our overnight stay program!</h2> 
                     <div className= "welcome_to_osp">
@@ -51,28 +51,9 @@ class Prospectives extends Component {
                         we highly recommend you arrange your schedule to let you attend the session from beginning to end. We're excited to see you! 
                     </div>
                 </div>
-                <div className= "welcome_to_osp_image">
-                    <img src="/images/prospectives/osp mountain cropped.jpg" alt="osp banner" className= "osp_image"/>
-                </div>
                
-                { /* Rishi */ }
-                <TextPanel heading="osp 1" id="osp_panel">
-                    <div className="osp_description">
-                        month 00 - month 00
-                    </div>
-                    <div className="itinerary_wrapper">
-                        itinerary
-                    </div>
-                </TextPanel>
+                <OSP />
 
-                { /* Ray */ }
-                <TextPanel heading="meet your coordinators!">
-                asdf
-                </TextPanel>
-
-                { /* will copy/paste osp 1 stuff for osp 2 after we finish */ }
-
-                { /* Christian */ }
                 <TextPanel heading="contact us!">
                     asdf
                 </TextPanel>
@@ -93,7 +74,6 @@ class ProspectivesIntro extends Component {
     renderLarge() {
         return (
             <React.Fragment>
-                { /* Brandon */ }
                 <TextPanel heading="we are rss" id="we-are-rss-panel">
                     <div className="we_are_rss_wrapper">
                         <div className="benefits_list">
