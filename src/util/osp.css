@@ -46,13 +46,24 @@
     display: flex;
     max-width: 1500px;
     margin: auto;
+    padding-top: 20px;
 }
 
 .osp .osp_content_image_wrapper {
     display: inline-block;
     width: 40%;
-    background-color: white;
     flex: 1;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+}
+
+.osp .osp1_wrapper .osp_content_image_wrapper {
+    background-image: url(/images/prospectives/day_itinerary.png);
+}
+
+.osp .osp2_wrapper .osp_content_image_wrapper {
+    background-image: url(/images/prospectives/night_itinerary.png);
 }
 
 .osp .osp_content {
@@ -135,6 +146,21 @@
     font-family: 'Roboto bold', sans-serif;
 }
 
+@media (max-width: 1300px) and (min-width: 840px) {
+    .osp .osp_profile {
+        width: 40%;
+        padding-bottom: 35px;
+    }
+}
+
+@media (max-width: 840px) {
+    .osp .osp_profile {
+        width: 80%;
+        max-width: 500px;
+        padding-bottom: 35px;
+    }
+}
+
 .osp .osp_profile_img {
     width: 70%;
     padding-top: 70%;
@@ -146,16 +172,28 @@
     width: 100%;
     margin-top: 20px;
     line-height: 40px;
+    font-size: 23px;
+    text-align: center;
 }
 
-.osp .osp_profile_year {
-
+.osp .osp1_wrapper .osp_profile_name {
+    background-image: linear-gradient(to bottom right, #dd864f, #d8a269);
 }
 
-.osp .osp_profile_major {
+.osp .osp2_wrapper .osp_profile_name {
+    background-image: linear-gradient(to bottom right, #000000, #d8a269);
+}
 
+.osp .osp_profile_year, .osp .osp_profile_major {
+    width: 100%;
+    text-align: center;
+    font-size: calc(10px + 0.4vw);
+    color: #c5c5c5;
+    font-style: italic;
 }
 
 .osp .osp_profile_desc {
-
+    color: #c5c5c5;
+    padding-left: 10px;
+    padding-top: 10px;
 }

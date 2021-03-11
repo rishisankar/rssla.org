@@ -129,12 +129,17 @@ class OSP extends Component {
                             name="Alvin Liu"
                             year="1st year"
                             major="Mathematics"
-                            img="alvin.png"
+                            img="alvin.jpg"
+                            valign="15%"
                         >
                             To the prospective Regents Scholar reading this: congratulations, and welcome to UCLA! My name is 
-                            Alvin Liu, and I am a first-year Math major from the Bay Area. Although my time here was not all 
+                            Alvin Liu, and I am a first-year Math major from the Bay Area.
+                            <br/><br/>
+                            Although my time here was not all 
                             what I had expected, I hope that as one of your coordinators I will be able to aid you in your 
-                            decision and show you all there is to love about our school! Besides serving as an RSS committee 
+                            decision and show you all there is to love about our school!
+                            <br/><br/>
+                            Besides serving as an RSS committee 
                             member, I am an assistant instructor at the Olga Radko Endowed Math Circle, work with School on 
                             Wheels to tutor homeless children, and was briefly involved in the UCLA quizbowl team. In my free 
                             time, I enjoy playing cello, folding origami, and watching anime. Consequently, I mostly listen 
@@ -145,13 +150,19 @@ class OSP extends Component {
                             year="2nd year"
                             major="Psychobiology"
                             img="joy.jpeg"
+                            size="150%"
+                            halign="50%"
                         >
                             Hello! Congratulations on receiving the Regents Scholarship! My name is Joy Lee, and I’m excited 
                             to be one of your OSP 1 coords. I am a second year Psychobiology major on the pre-med track, and 
-                            I aspire to become a pediatric oncologist. Some of my main involvements include raising awareness 
+                            I aspire to become a pediatric oncologist.
+                            <br/><br/>
+                            Some of my main involvements include raising awareness 
                             for pediatric cancer with BFPC, mentoring kids in STEM through hands-on science experiments, and 
                             working as a pediatric cancer undergraduate research assistant at the David Geffen School of 
-                            Medicine. In my free time, you’ll catch me playing volleyball, exploring new music, or hanging 
+                            Medicine.
+                            <br/><br/>
+                            In my free time, you’ll catch me playing volleyball, exploring new music, or hanging 
                             out at the beach/Disneyland with my friends (ofc pre-covid). I hope that you guys will have an 
                             amazing time at OSP, and I can’t wait to meet all of you there!
                         </OSPCoord>
@@ -160,14 +171,17 @@ class OSP extends Component {
                             year="2nd year"
                             major="Physiological Science/Anthropology"
                             img="karine.jpeg"
+                            halign="25%"
                         >
                             Hi prospies! Huge congrats on your admission to UCLA as Regents Scholars!  My name is Karine 
                             and I am so excited to be one of your OSP coordinators!  I am a second-year Physiological Science 
                             and Anthropology double major from San Diego and I aspire to be a physician in the future. 
+                            <br/><br/>
                             Outside of OSP, you can find me mentoring fifth graders through hands-on STEM activities in a 
                             club called BEAM, connecting with my Japanese roots through the UCLA chapters of Nikkei Student 
                             Union and Japanese Student Association, and working as an undergraduate researcher in a lab 
                             studying memory consolidation in sleep and its impacts on post-traumatic stress disorder. 
+                            <br/><br/>
                             In whatever free time I have, I love watching Netflix, dancing, and drinking way too much 
                             iced coffee. I hope that I can introduce you to everything UCLA has to offer and I look forward 
                             to getting to know all of you in OSP 1!
@@ -177,12 +191,16 @@ class OSP extends Component {
                             year="1st year"
                             major="Linguistics/Computer Science"
                             img="daniel.jpg"
+                            valign="40%"
                         >
                             Congratulations to all prospective Regents Scholars, and welcome to UCLA! My name is Daniel 
-                            Kao, and I am a first year Linguistics and Computer Science major from LA. Currently, I’m a 
-                            member of the Japan-America Language and Culture Club and a Chinese tutor for the Bruin Polyglot 
-                            Society. I’ve also joined School on Wheels, where I am in the process of becoming a tutor for 
-                            children struggling with homelessness. In my free time, I like to study languages, read novels, 
+                            Kao, and I am a first year Linguistics and Computer Science major from LA.
+                            <br/><br/>
+                            Currently, I’m a member of the Japan-America Language and Culture Club and a Chinese tutor 
+                            for the Bruin Polyglot Society. I’ve also joined School on Wheels, where I am in the 
+                            process of becoming a tutor for children struggling with homelessness. 
+                            <br/><br/>
+                            In my free time, I like to study languages, read novels, 
                             and relax through online games. While my first quarters at UCLA were certainly out of the norm, 
                             RSS provided an amazing, supportive community that made me feel welcome. As an OSP coordinator, 
                             I hope to share my experiences navigating college online with you, and I’m looking forward to 
@@ -223,8 +241,7 @@ function OSPHeading(props) {
 function OSPContentWrapper(props) {
     return (
         <div className="osp_content_wrapper">
-            <div className="osp_content_image_wrapper">
-            </div>
+            <div className="osp_content_image_wrapper"/>
             <div className="osp_content">
                 {props.children}
             </div>
