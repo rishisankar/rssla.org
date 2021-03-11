@@ -18,6 +18,12 @@
     max-height: 30vw;
 }
 
+@media (max-width: 840px) {
+    .osp .osp_mountains {
+        padding-bottom: 15px;
+    }
+}
+
 .osp .osp_heading {
     display: flex;
     flex-flow: row;
@@ -49,21 +55,23 @@
     padding-top: 20px;
 }
 
-.osp .osp_content_image_wrapper {
-    display: inline-block;
-    width: 40%;
-    flex: 1;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50%;
-}
+@media (min-width: 840px) {
+    .osp .osp_content_image_wrapper {
+        display: inline-block;
+        width: 40%;
+        flex: 1;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 50%;
+    }
 
-.osp .osp1_wrapper .osp_content_image_wrapper {
-    background-image: url(/images/prospectives/day_itinerary.png);
-}
+    .osp .osp1_wrapper .osp_content_image_wrapper {
+        background-image: url(/images/prospectives/day_itinerary.png);
+    }
 
-.osp .osp2_wrapper .osp_content_image_wrapper {
-    background-image: url(/images/prospectives/night_itinerary.png);
+    .osp .osp2_wrapper .osp_content_image_wrapper {
+        background-image: url(/images/prospectives/night_itinerary.png);
+    }
 }
 
 .osp .osp_content {
@@ -84,6 +92,16 @@
 
 .osp .osp_content_itinerary_wrapper {
     padding-left: 30px;
+}
+
+@media (max-width: 840px) {
+    .osp .osp_content_day_wrapper {
+        padding-left: 10px;
+    }
+
+    .osp .osp_content_itinerary_wrapper {
+        padding-left: 10px;
+    }
 }
 
 .osp #first_osp_label {
@@ -142,8 +160,15 @@
 
 .osp .osp_profile {
     padding: 2.5%;
+    padding-top: 30px;
     width: 20%;
     font-family: 'Roboto bold', sans-serif;
+}
+
+.osp .osp_profile_img {
+    width: 70%;
+    padding-top: 70%;
+    margin: auto;
 }
 
 @media (max-width: 1300px) and (min-width: 840px) {
@@ -155,16 +180,15 @@
 
 @media (max-width: 840px) {
     .osp .osp_profile {
-        width: 80%;
+        width: 95%;
         max-width: 500px;
         padding-bottom: 35px;
     }
-}
 
-.osp .osp_profile_img {
-    width: 70%;
-    padding-top: 70%;
-    margin: auto;
+    .osp .osp_profile_img {
+        width: min(300px, 70%);
+        padding-top: min(300px, 70%);
+    }
 }
 
 .osp .osp_profile_name {
@@ -177,11 +201,11 @@
 }
 
 .osp .osp1_wrapper .osp_profile_name {
-    background-image: linear-gradient(to bottom right, #dd864f, #d8a269);
+    background-image: linear-gradient(to bottom right, #E58646, #E5A94F);
 }
 
 .osp .osp2_wrapper .osp_profile_name {
-    background-image: linear-gradient(to bottom right, #000000, #d8a269);
+    background-image: linear-gradient(to bottom right, #0C3C91, #7041CC);
 }
 
 .osp .osp_profile_year, .osp .osp_profile_major {

@@ -55,7 +55,13 @@ class Prospectives extends Component {
                 <OSP />
 
                 <TextPanel heading="contact us!">
-                    asdf
+                    <div className="osp_contact_wrapper">
+                        <div className="osp_contact_name">Rebecca Zhu</div>
+                        <div className="osp_contact_email">
+                            <a className="osp_contact_email_link" href="mailto:evp@rssla.org">evp@rssla.org</a>
+                        </div>
+                    </div>
+                    <img className="osp_contact_img" src="/images/prospectives/contact_banner.png" alt="mountains"/>
                 </TextPanel>
             </RSSPage>
         )

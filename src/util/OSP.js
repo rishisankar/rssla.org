@@ -9,7 +9,7 @@ class OSP extends Component {
                 <OSPWrapper class="osp1_wrapper">
                     <OSPMountains src="day_mountains.png" />
                     <OSPHeading name="osp 1"/>
-                    <OSPContentWrapper src="day_mountains.png" >
+                    <OSPContentWrapper>
                         <OSPContentDay label="april 2, 2021" id="first_osp_label">
                             <OSPEvent
                                 time="4:30pm"
@@ -205,6 +205,205 @@ class OSP extends Component {
                             RSS provided an amazing, supportive community that made me feel welcome. As an OSP coordinator, 
                             I hope to share my experiences navigating college online with you, and I’m looking forward to 
                             meeting everyone at OSP!
+                        </OSPCoord>
+                    </OSPCoordWrapper>
+                </OSPWrapper>
+                <OSPWrapper class="osp2_wrapper">
+                    <OSPMountains src="night_mountains.png" />
+                    <OSPHeading name="osp 2"/>
+                    <OSPContentWrapper>
+                        <OSPContentDay label="april 8, 2021" id="first_osp_label">
+                            <OSPEvent
+                                time="4:30pm"
+                                label="check-in and meet and greet"
+                                desc="Time to meet your Coordinators and fellow Scholars! We’ll be doing some icebreakers
+                                    in breakout rooms! See a list of questions if you need a quick icebreaker!"
+                            />
+                            <OSPEvent
+                                time="5:30pm"
+                                label="academic life panel"
+                                desc="Talk to a panel of current Regents Scholars to hear about their academic journey 
+                                    at UCLA including enrollment, classes, networking, and any other topics you would like!"
+                            />
+                            <OSPEvent
+                                time="6:30pm"
+                                label="dinner break"
+                                desc="Take a screen break and get a bite to eat! The Zoom room will be open if you want to 
+                                    chat with fellow prospies and current RSSer's."
+                            />
+                            <OSPEvent
+                                time="8:00pm"
+                                label="meet your host"
+                                desc="Join a breakout room and get to know your OSP host. Ask them about major/department 
+                                    specific questions or anything about the college experience! "
+                            />
+                            <OSPEvent
+                                time="8:15pm"
+                                label="speed dating bingo"
+                                desc="Grab your bingo sheet and try to win a prize while getting to know other prospies 
+                                    and RSSer's. You will be randomly sorted into breakout rooms to ask questions based 
+                                    on your bingo sheet. If you think you have bingo, shout it out or type it in the main
+                                    room chat!"
+                            />
+                            <OSPEvent
+                                time="9:00pm"
+                                label="game night"
+                                desc="Take your pick of a variety of games, chill in the main Zoom, or head out for the
+                                    night! Before you go, make sure you sign up for class shadowing!"
+                            />
+                        </OSPContentDay>
+                        <OSPContentDay label="april 9, 2021">
+                            <OSPEvent
+                                time="10:00am"
+                                label="check-in"
+                                desc="Are you ready for a full day of activities?  Before we start, here is a quick 
+                                    chance to get to know everyone better!"
+                            />
+                            <OSPEvent
+                                time="10:30am"
+                                label="class shadowing"
+                                desc="Get a taste of Zoom college!"
+                            />
+                            <OSPEvent
+                                time="1:30pm"
+                                label="lunch"
+                                desc="Independent meal time. If you’re feeling up to it, hang out with current Regents Scholars on Discord!"
+                            />
+                            <OSPEvent
+                                time="3:00pm"
+                                label="regroup and start virtual campus &amp; dorm tour"
+                                desc="Virtually tour UCLA’s beautiful campus. Learn Bruin secrets as we explore North campus, 
+                                    South campus and everything in between."
+                            />
+                            <OSPEvent
+                                time="4:30pm"
+                                label="tea/coffee break"
+                                desc="Take a screen break. Optionally, join us for a Zoom chat over tea and coffee."
+                            />
+                            <OSPEvent
+                                time="5:30pm"
+                                label="post-campus tour game"
+                                desc="Test your new knowledge on UCLA’s campus and history! Win a prize! Who’s the true
+                                    Bruin?"                               
+                            />
+                            <OSPEvent
+                                time="6:00pm"
+                                label="campus life/club panel"
+                                desc="Hear from some current Regents Scholars about anything you want to know about 
+                                    campus life to prepare for when we are back in person!"
+                            />
+                            <OSPEvent
+                                time="7:00pm"
+                                label="dinner"
+                                desc="Join your coordinators in sweating over Buldak 2x Spicy Chicken Ramen, or 
+                                    just enjoy the show as you eat your regular dinner."
+                            />
+                            <OSPEvent
+                                time="8:00pm"
+                                label="faculty in residence panel"
+                                desc="Ask questions about campus life, academic, and school culture to our Faculty in Residence."
+                            />
+                            <OSPEvent
+                                time="9:30pm"
+                                label="game night"
+                                desc="Enjoy some games or rest after a long, fun-filled day."
+                            />
+                        </OSPContentDay>
+                        <OSPContentDay label="april 10, 2021">
+                            <OSPEvent
+                                time="10:00am"
+                                label="check-in"
+                                desc="Reflect on the past two days with your group before OSP comes to a close."
+                            />
+                            <OSPEvent
+                                time="10:30am"
+                                label="q&amp;a panel: decision making"
+                                desc="Ask a panel of current Regents Scholars any remaining questions you have 
+                                    about Regents, college life, academics, or any other topic."
+                            />
+                            <OSPEvent
+                                time="12:00pm"
+                                label="goodbyes"
+                                desc="All good things must end, and now it’s time to say goodbye. We hope you enjoyed 
+                                    your time with us, and we look forward to seeing you in the fall. Go Bruins!! 
+                                    The Discord will remain active for all of your questions and various needs."
+                            />
+                        </OSPContentDay>
+                    </OSPContentWrapper>
+                    <OSPCoordWrapper>
+                        <OSPCoord
+                            name="Jaslyn Brar"
+                            year="2nd year"
+                            major="Chemical Engineering"
+                            img="jaslyn.jpg"
+                            valign="10%"
+                        >
+                            Welcome to UCLA and congratulations on becoming a Regents Scholar! I'm Jaslyn Brar and 
+                            I'm a second-year Chemical Engineering major from Cerritos, California. 
+                            <br/><br/>
+                            I am currently a project lead and member of UCLA's chapter of American Institute of Chemical 
+                            Engineers, where I design projects for members to participate in and learn more about engineering. 
+                            <br/><br/>
+                            I love pennyboarding, going to the beach, baking/cooking, gardening, and coffee brewing. 
+                            I hope you have a great time at OSP!
+                        </OSPCoord>
+                        <OSPCoord
+                            name="Emika Saito"
+                            year="1st year"
+                            major="Bioengineering"
+                            img="emika.jpg"
+                            valign="20%"
+                        >
+                            Hello, and congratulations on being selected as a Regents Scholar! My name is Emika Saito, and 
+                            I am a first-year bioengineering major from Southern California.
+                            <br/><br/>
+                            In my free time, I love playing the piano, making desserts (and eating them), and playing 
+                            tennis. 
+                            <br/><br/>
+                            As one of your OSP coordinators this year, I hope to give you a fun introduction to 
+                            UCLA regardless of the virtual setting. While I can’t speak to as much of the in-person college 
+                            life, I can certainly tell you about the enjoyable experiences I’ve had participating in 
+                            clubs and school events, as well as making new friends, even with online classes. 
+                            I’m looking forward to meeting everyone!
+                        </OSPCoord>
+                        <OSPCoord
+                            name="Teresa Thomas"
+                            year="2nd year"
+                            major="Psychobiology"
+                            img="teresa.jpg"
+                            valign="40%"
+                        >
+                            Hi! My name is Teresa and I am from the San Fernando Valley in Los Angeles. I’m currently 
+                            a second year Psychobiology Major that is also interested in the Global Health Minor! 
+                            Right now, I’m on the pre-med track, hoping to pursue a career as a physician.
+                            <br/><br/>
+                            On campus, you can find me on the Executive Board for the Student Wellness Commission (SWC), 
+                            educating the South Asian community about mental health through MannMukti, 
+                            mentoring high school students in LAMP (Los Angeles Mentorship Program), 
+                            and volunteering as an undergraduate researcher in a Pediatric Medicine clinical research lab!
+                            <br/><br/>
+                            In my free time, you can find me going out for food or boba, sending an absurd amount of 
+                            tiktoks to my friends, and learning Korean. I can’t wait to meet you all and make your 
+                            OSP experience as memorable as possible, even in a virtual setting!
+                        </OSPCoord>
+                        <OSPCoord
+                            name="Lexi Massey"
+                            year="1st year"
+                            major="Physiological Science/Dance"
+                            img="lexi.jpg"
+                            halign="45%"
+                        >
+                            Hello there, and congratulations on becoming a Regents Scholar! My name is Lexi Massey and 
+                            I am a first year student planning to double major in Physiological Science and Dance!
+                            <br/><br/>
+                            In my free time I love to dance (hence the choice of major), read for hours on end, 
+                            do non-contact boxing, write pen pal letters, and try random recipes (ever heard of aquafaba mousse?)! 
+                            I’ll be one of your OSP 2 coords and I can’t wait to meet you! 
+                            <br/><br/>
+                            Even though college didn’t start out the way any of us first years expected it to, I wouldn’t 
+                            trade the experiences I’ve had so far for anything! I have found such an amazing community
+                            here and hopefully you’ll get a taste of that at OSP! On behalf of the Regents Scholar 
+                            Society, welcome to UCLA!
                         </OSPCoord>
                     </OSPCoordWrapper>
                 </OSPWrapper>

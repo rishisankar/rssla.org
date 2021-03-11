@@ -44,6 +44,33 @@ class Home extends Component {
                     events, access to our test bank, and much more! 
                 </ImageTextPanel>
 
+                <TextPanel heading="what we offer" id="what-we-offer-panel">
+                    We want our Regents Scholars to grow, to succeed, and to thrive. That's why we provide
+                    the following opportunities:
+                    <BenefitWrapper>
+                        <BenefitDescription
+                            smallheading="mentorship &amp; families"
+                            desc="All freshmen are able to match with a peer mentor and join a mentorship family. Your
+                                mentor can guide you through choosing classes, joining student organizations, and any
+                                advice you need. Your mentorship family is a group of RSSers you will become close friends with!"
+                            bgr="family.png"
+                        />
+                        <BenefitDescription
+                            smallheading="academic resources"
+                            desc="We offer a variety of different educational resources for our members to take advantage of!
+                                Whether it be resume reviews, information sessions, workshops, our test bank, or course planning 
+                                events - we aim to ensure that each RSS member has the resources they need to succeed."
+                            bgr="closedbook.png"
+                        />
+                        <BenefitDescription
+                            smallheading="leadership opportunities"
+                            desc="Through our committees, you can engage with the society, develop leadership skills, 
+                                and utilize all of our resources! Applications open every fall quarter."
+                            bgr="handshake.png"
+                        />
+                    </BenefitWrapper>
+                </TextPanel>
+
                 <TextPanel heading="the three pillars" id="three_pillars_panel">
                     <BenefitWrapper>
                             <BenefitDescription
