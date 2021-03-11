@@ -14,30 +14,67 @@
     font-style: italic;
 }
 
-.prospectives #we-are-rss-panel .text-panel-content {
-    padding-top: 0px;
-
-}
 .prospectives .we_are_rss_wrapper {
     display: flex;
 }
 .prospectives .benefits_list {
     float: left;
-    width: 70%;
-    padding-right: 1%;
+    width: calc(100% - 200px - 13vw);
+    padding-right: 4%;
     padding-top: 15px;
 }
 
 .prospectives .letter_wrapper {
     float: right;
-    width: calc(30% - 8px);
+    width: calc(200px + 13vw);
     border-bottom: 4px solid white;
     border-left: 4px solid white;
     border-right: 4px solid white;
     padding-top: 15px;
     padding-right: 1%;
     padding-left: 1%;
-} 
+}
+
+.prospectives .evp_letter_header {
+    font-size: calc(22px + 1.1vw);
+    font-family: "Kollektif";
+}
+
+.prospectives .evp_letter_body {
+    padding-bottom: calc(10px + 0.5vw);
+}
+
+.prospectives .evp_letter_signature {
+    font-size: calc(50px + 1.1vw);
+    font-family: "Moontime";
+}
+
+.prospectives .evp_letter_title {
+    font-style: italic;
+}
+
+@media (min-width: 900px) {
+    .prospectives #we-are-rss-panel .text-panel-content {
+        padding-top: 0px;
+    }
+    
+    .prospectives #we-are-rss-panel {
+        padding-bottom: 0px;
+    }
+
+    .prospectives .evp_letter_body {
+        padding-top: calc(10px + 0.5vw);
+    }
+    .prospectives .evp_letter_title {
+        padding-bottom: 30px;
+    }
+}
+
+@media (max-width: 840px) {
+    .prospectives #we-are-rss-panel {
+        padding-bottom: 0px;
+    }   
+}
 
 .prospectives .welcome_header {
     padding: 40px;
@@ -53,17 +90,17 @@
 }
 
 .prospectives .welcome_wrapper {
-    margin:0px auto;
-    padding-left: 50px;
-    padding-right: 50px;
+    margin-top: -4px;
+    padding-left: 60px;
+    padding-right: 60px;
     background-color: black;
 }
 
 .prospectives .welcome_to_osp{
-    padding: 40px;
-    padding-top: 0px;
+    padding-top: 5px;
     padding-right: 40px;
     padding-left: 40px;
+    padding-bottom: 40px;
     text-align: center;
     background-color:white;
     font-family: "Roboto", sans-serif;
@@ -98,9 +135,3 @@
     padding-top: 0;
 }
 
-@media (max-width: 840px) {
-    .prospectives #we-are-rss-panel .text-panel-content {
-        font-size: calc(3px + 1.5vw);
-        margin-top: calc(-2px - 0.5vw);
-    }
-}

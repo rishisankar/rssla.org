@@ -1,0 +1,6 @@
+@font-face {
+    font-family: 'Moontime';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Moontime'), url('MoonTime-Regular.ttf') format('truetype');
+}

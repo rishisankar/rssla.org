@@ -97,3 +97,51 @@
         font-size: 1.92vw;
     }
 }
+
+/* for prospectives... */
+@media (min-width: 900px) and (max-width: 1220px) {
+    .prospectives .scholarship-benefit {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0 0 7px 0;
+        margin: 0;
+    }
+
+    .prospectives .benefit-banner {
+        width: 30%;
+        height: 12.4vw;
+    }
+
+    .prospectives .benefit-banner-desc {
+        width: 70%;
+    }
+    
+    .prospectives .benefit-banner-img {
+        height: 100%;
+    }
+    
+    .prospectives .benefit-banner-text {
+        position: absolute;
+        min-width: 80%;
+    }
+    
+    .prospectives .benefit-banner-text-heading {
+        font-size: 3.8vw;
+        line-height: 2.8vw;
+    }
+    
+    .prospectives .benefit-banner-text-subheading {
+        font-size: 1.6vw;
+    }
+    
+    .prospectives .benefit-banner-text-smallheading {
+        font-size: 2.4vw;
+        line-height: 2.16vw;
+    }
+    
+    .prospectives .benefit-banner-desc {
+        font-size: calc(10px + 0.5vw);
+    }
+}
