@@ -49,6 +49,11 @@
     font-family: "Moontime";
 }
 
+.prospectives .tad_letter_signature {
+    font-size: calc(35px + 1.5vw);
+    font-family: "Moontime";
+}
+
 .prospectives .evp_letter_title {
     font-style: italic;
 }
