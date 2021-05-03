@@ -329,6 +329,34 @@ class OSP extends Component {
                                     The Discord will remain active for all of your questions and various needs."
                             />
                         </OSPContentDay>
+                        <OSPContentDay label="april 11, 2021">
+                            <OSPEvent
+                                time="2:00pm"
+                                label="housing workshop"
+                                desc="The housing application just opened! While we are not affiliated with UCLA Housing, 
+                                    we've got a lot of experience from living in the dorms. This workshop will be on Sunday, 
+                                    April 11th, from 2-3PM. We'll go over the different housing styles, meal plans, building 
+                                    names, and dorm life! COVID has certainly contributed to making the UCLA Housing 
+                                    experience very topsy-turvy, so we'll figure this out together :)"
+                            />
+                            <OSPEvent
+                                time="3:00pm"
+                                label="rss family panel"
+                                desc="In normal times, RSS would host a Bruin Day Reception for you and your families.
+                                    While we are unable to meet in person this year, we would still like to extend an 
+                                    e-invitation to you and your families to join us on Sunday, April 11th, from 3-5PM, 
+                                    to talk with a panel of Regents Scholar upperclassmen about their time at UCLA. If 
+                                    you were unable to attend OSP, or your families would like to get to know us and ask 
+                                    questions, or you miss seeing our faces, please come!"
+                            />
+                            <OSPEvent
+                                time=""
+                                label=""
+                                desc="*For the housing workshop and family panel, you should have received an 
+                                    email from ivp@rssla.org with the Zoom registration information - feel free to 
+                                    contact this email with any questions/concerns!"
+                            />
+                        </OSPContentDay>
                     </OSPContentWrapper>
                     <OSPCoordWrapper>
                         <OSPCoord
