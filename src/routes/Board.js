@@ -35,18 +35,26 @@ class Board extends Component {
                     name="Donya Mazdeyasnan"
                     major="Psychobiology, 2022"
                     img="donya.jpg"
+                    size="130% auto"
+                    halign="55%"
                 />
                 <BoardProfile width={this.state.width}
                     title="External Vice President"
-                    name="Rebecca Zhu"
-                    major="Business Economics and Linguistics/Computer Science, 2022"
-                    img="rebecca.png"
+                    name="Anusha Fatehpuria"
+                    major="Human Biology and Society, 2023"
+                    img="anusha.jpg"
+                    size="130% auto"
+                    halign="30%"
+                    valign="40%"
                 />
                 <BoardProfile width={this.state.width}
                     title="Internal Vice President"
-                    name="Carolyn Hu"
-                    major="Chemistry, 2021"
-                    img="carolyn.jpg"
+                    name="Chelsey Wang"
+                    major="Computer Science, 2022"
+                    img="chelsey.jpg"
+                    valign="50%"
+                    halign="30%"
+                    size="120% auto"
                 />
                 <BoardProfile width={this.state.width}
                     title="Secretary"
@@ -62,10 +70,9 @@ class Board extends Component {
                 />
                 <BoardProfile width={this.state.width}
                     title="Activities Director"
-                    name="Tina Huang"
-                    major="Computer Science and Engineering, 2023"
-                    img="tina.jpg"
-                    halign="45%"
+                    name="Daniel Kao"
+                    major="Linguistics and Computer Science, 2024"
+                    img="daniel.jpg"
                 />
                 <BoardProfile width={this.state.width}
                     title="Community Service Director"
@@ -75,56 +82,57 @@ class Board extends Component {
                 />
                 <BoardProfile width={this.state.width}
                     title="Educational Programs Director"
-                    name="Anusha Fatehpuria"
-                    major="Human Biology and Society, 2023"
-                    img="anusha.jpg"
-                    size="130% auto"
-                    halign="30%"
-                    valign="40%"
+                    name="Karine Kim"
+                    major="Physiological Science/Anthropology, 2023"
+                    img="karine.jpg"
                 />
                 <BoardProfile width={this.state.width}
                     title="Funding Director"
                     name="Aditya Guru"
-                    major="Physiological Sciences, 2022"
+                    major="Physiological Science, 2022"
                     img="aditya.jpg"
                 />
                 <BoardProfile width={this.state.width}
                     title="LAMP Director"
-                    name="Mizna Akbar"
-                    major="Global Studies, 2021"
-                    img="mizna.jpg"
+                    name="Cindy Berganza"
+                    major=""
+                    img=""
                 />
                 <BoardProfile width={this.state.width}
                     title="LAMP Director"
-                    name="Sandhya Rajkumar"
-                    major="Computational and Systems Biology, 2021"
-                    img="sandhya.jpg"
+                    name="Ryan Vuong"
+                    major="Computer Science, 2023"
+                    img="ryan.jpg"
                 />
                 <BoardProfile width={this.state.width}
                     title="Publicity Director"
-                    name="Jenny Chung"
-                    major="Mathematics for Teaching, 2022"
-                    img="jenny.jpg"
+                    name="Joy Lee"
+                    major="Psychobiology, 2023"
+                    img="joy.png"
+                    halign="50%"
+                    valign="2%"
                 />
                 <BoardProfile width={this.state.width}
                     title="Transfer Affairs Director"
-                    name="Michelle Garabetian"
-                    major="Political Science, 2021"
-                    img="michelle.jpg"
-                    halign="50%"
+                    name="Marilyn Martinez"
+                    major="Sociology, 2022"
+                    img="marilyn.jpg"
+                    valign="35%"
                 />
                 <BoardProfile width={this.state.width}
                     title="Treasurer"
-                    name="Jason Liu"
-                    major="Neuroscience, 2021"
-                    img="jason.jpg"
+                    name="Bilal Hamid"
+                    major="Microbiology, Immunology, and Molecular Genetics, 2023"
+                    img="bilal.jpg"
+                    size="120% auto"
+                    valign="20%"
+                    halign="50%"
                 />
                 <BoardProfile width={this.state.width}
                     title="Webmaster"
-                    name="Rishi Sankar"
-                    major="Computer Science and Mathematics, 2023"
-                    img="rishi.jpg"
-                    halign="50%"
+                    name="David Deng"
+                    major="Computer Science, 2023"
+                    img="david.jpg"
                 />
             </>
         )
@@ -150,9 +158,9 @@ class Board extends Component {
 
 class BoardProfile extends Component {
     render() {
-        const halign = this.props.halign == null ? "0%" : this.props.halign;
-        const valign = this.props.valign == null ? "0%" : this.props.valign;
-        const size = this.props.size == null ? "cover" : this.props.size;
+        const halign = this.props.halign == null ? "0%" : this.props.halign; //picture movement laterally
+        const valign = this.props.valign == null ? "0%" : this.props.valign; //picture movement vertically
+        const size = this.props.size == null ? "cover" : this.props.size; //zoom
         const imgStyle = {
             backgroundImage: `url(/images/board/${this.props.img})`,
             backgroundRepeat: "no-repeat",
