@@ -48,7 +48,7 @@ class Header extends Component {
                                 ]}
                     />
                     <NavBox label="gallery" link="gallery" />
-                    <NavBox label="prospectives" link="prospectives" />
+                    <NavBox label="prospectives" link="prospectivesold" />
                     <NavBox label="contact us" link="contact" />
                 </NavItems>
             </div>
