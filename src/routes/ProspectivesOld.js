@@ -31,9 +31,9 @@ class ProspectivesOld extends Component {
                             bgr="openbook.png"
                         />
                         <BenefitDescription
-                            heading="13"
+                            heading="10"
                             subheading="units"
-                            desc="Priority enrollment in 13 class units, starting in their second quarter."
+                            desc="Priority enrollment in 10 class units, starting in their second quarter."
                             bgr="pencil.png"
                             scale="90%"
                         />

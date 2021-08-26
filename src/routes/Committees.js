@@ -23,8 +23,8 @@ class Committees extends Component {
             <RSSPage className="committees">
                 <Banner 
                     text="committees" 
-                    bgr="/images/images/2019_family_xmas.jpg"
-                    darkness="0.1"
+                    bgr="/images/prospectives/banner.png"
+                    darkness="0.2"
                     valign="65%"
                 />
 
@@ -53,7 +53,7 @@ class Committees extends Component {
                     <div className="committees-list-wrapper">
                         <CommitteeEntry
                             name="A.C.E. Committee"
-                            leaders="Andrew, Anusha, Zack, and Tina"
+                            leaders="Andrew, Karine, Zack, and Daniel"
                         >
                             The A.C.E. Committee manages activities, community service, and educational programs. 
                             The committee helps plan fun and affordable social activities, arranges community 
@@ -61,7 +61,7 @@ class Committees extends Component {
                         </CommitteeEntry>
                         <CommitteeEntry
                             name="Funding Committee"
-                            leaders="Aditya and Jason"
+                            leaders="Aditya and Bilal"
                         >
                             The Funding Committee is in charge of fundraising, including brainstorming innovative ideas
                             and organizing the logistics for the fundraisers. The Funding Committee also serves as 
@@ -69,7 +69,7 @@ class Committees extends Component {
                         </CommitteeEntry>
                         <CommitteeEntry
                             name="Special Events Committee"
-                            leaders="Rebecca and Carolyn"
+                            leaders="Donya, Chelsey, and Anusha"
                         >
                             The Special Events Committee plans the Society's large-scale events, such as S.P.I.E.L. 
                             and winter retreat. In addition, the committee advocates for the needs of all members, 
@@ -77,7 +77,7 @@ class Committees extends Component {
                         </CommitteeEntry>
                         <CommitteeEntry
                             name="Tech Committee"
-                            leaders="Rishi"
+                            leaders="David"
                         >
                             The Tech Committee works on tech-related projects with a focus on improving the society.
                             Committee members help maintain and add new features/pages to the RSS website,
@@ -85,11 +85,18 @@ class Committees extends Component {
                         </CommitteeEntry>
                         <CommitteeEntry
                             name="Design Committee"
-                            leaders="Jenny"
+                            leaders="Joy"
                         >
                             The Design Committee creates digital flyers and design RSS merch, as well as work on designs
                             for RSS projects. The committee also helps manage our social media accounts and promote our
                             activities and events to the community.
+                        </CommitteeEntry>
+                        <CommitteeEntry
+                            name="Transfer Affairs Committee"
+                            leaders="Marilyn"
+                        >
+                            The Transfer Affairs Committee works to make the Regents Scholar Society a transfer-inclusive
+                            space by promoting academic, educational, and professional resources to ensure success.
                         </CommitteeEntry>
                     </div>
                 </TextPanel>
