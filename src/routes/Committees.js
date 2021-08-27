@@ -49,7 +49,7 @@ class Committees extends Component {
                     id="join-committee-panel"
                 >
                     2020-2021 Committee Applications will open a few weeks after fall quarter starts. There are
-                    five committees you can join this year:
+                    six committees you can join this year:
                     <div className="committees-list-wrapper">
                         <CommitteeEntry
                             name="A.C.E. Committee"
