@@ -48,7 +48,7 @@ class Committees extends Component {
                     heading="join a committee!"
                     id="join-committee-panel"
                 >
-                    2020-2021 Committee Applications will open a few weeks after fall quarter starts. There are
+                    2021-2022 Committee Applications will open a few weeks after fall quarter starts. There are
                     six committees you can join this year:
                     <div className="committees-list-wrapper">
                         <CommitteeEntry
