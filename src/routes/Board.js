@@ -95,8 +95,11 @@ class Board extends Component {
                 <BoardProfile width={this.state.width}
                     title="LAMP Director"
                     name="Cindy Berganza"
-                    major=""
-                    img=""
+                    major="Psychology/Political Science, 2022"
+                    img="cindy.jpg"
+                    size="140% auto"
+                    halign="50%"
+                    valign="50%"
                 />
                 <BoardProfile width={this.state.width}
                     title="LAMP Director"
