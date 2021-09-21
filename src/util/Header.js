@@ -47,9 +47,10 @@ class Header extends Component {
                                 {label: "board", to: "board"}
                                 ]}
                     />
-                    <NavBox label="gallery" link="gallery" />
-                    <NavBox label="prospectives" link="prospectivesold" />
-                    <NavBox label="contact us" link="contact" />
+                    <NavBox label="gallery" link="gallery" external={false} />
+                    <NavBox label="prospectives" link="prospectivesold" external={false}/>
+                    <NavBox label="contact us" link="contact" external={false}/>
+                    <NavBox label="shop" link="https://rssmerch.myshopify.com/" external={true}/>
                 </NavItems>
             </div>
         )
@@ -114,7 +115,14 @@ class HamburgerMenu extends Component {
 
 class NavBox extends Component {
     render() {
-        return (
+        return (this.props.external ? (
+            <a href={this.props.link}
+               className="nav-box-link">
+                <div className="nav-box">
+                    {this.props.label}
+                </div>
+            </a>
+        ) : (
             <Link 
                     className="nav-box-link"
                     to={this.props.link}
@@ -123,7 +131,7 @@ class NavBox extends Component {
                     {this.props.label}
                 </div>
             </Link>
-        )
+        ))
     }
 }
 
