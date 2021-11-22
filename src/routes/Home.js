@@ -39,7 +39,7 @@ class Home extends Component {
                     and thrive.
                     <p/>
                     Each Regents Scholar is awarded amazing perks: a $2000 scholarship,
-                    priority course enrollment for up to 13 units, four years of
+                    priority course enrollment for up to 10 units, four years of
                     housing, mentorship from peers, faculty, and alumni, professional
                     events, access to our test bank, and much more! 
                 </ImageTextPanel>
