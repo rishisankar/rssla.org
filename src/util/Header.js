@@ -44,7 +44,8 @@ class Header extends Component {
                         desktop={desktop}
                         options={[{label: "programs", to: "programs"},
                                 {label: "committees", to: "committees"},
-                                {label: "board", to: "board"}
+                                {label: "board", to: "board"},
+                                {label: 'service', to: "service"}
                                 ]}
                     />
                     <NavBox label="gallery" link="gallery" external={false} />

@@ -14,6 +14,7 @@ import Gallery from './routes/Gallery';
 import Prospectives from './routes/Prospectives';
 import ProspectivesOld from './routes/ProspectivesOld';
 import Contact from './routes/Contact';
+import Service from './routes/Service';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -34,6 +35,7 @@ function Routes(props) {
         <Route exaxt path="/prospectives"><Prospectives /></Route>
         <Route exaxt path="/contact"><Contact /></Route>
         <Route exaxt path="/prospectivesold"><ProspectivesOld /></Route>
+        <Route exaxt path="/service"><Service /></Route>
       </Switch>
     </BrowserRouter>
   )
