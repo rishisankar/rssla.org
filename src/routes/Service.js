@@ -1,4 +1,6 @@
-import React, { Component } from 'react';
+// commented out while we work on the OSP stuff
+
+/* import React, { Component } from 'react';
 
 import Banner from '../util/Banner';
 import RSSPage from '../util/RSSPage';
@@ -20,4 +22,4 @@ class Service extends Component {
     }
 }
 
-export default Service;
+export default Service; */

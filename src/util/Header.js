@@ -45,7 +45,7 @@ class Header extends Component {
                         options={[{label: "programs", to: "programs"},
                                 {label: "committees", to: "committees"},
                                 {label: "board", to: "board"},
-                                {label: 'service', to: "service"}
+                                // {label: 'service', to: "service"}
                                 ]}
                     />
                     <NavBox label="gallery" link="gallery" external={false} />

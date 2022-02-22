@@ -35,7 +35,7 @@ function Routes(props) {
         <Route exaxt path="/prospectives"><Prospectives /></Route>
         <Route exaxt path="/contact"><Contact /></Route>
         <Route exaxt path="/prospectivesold"><ProspectivesOld /></Route>
-        <Route exaxt path="/service"><Service /></Route>
+        {/* <Route exaxt path="/service"><Service /></Route> */}
       </Switch>
     </BrowserRouter>
   )
