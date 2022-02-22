@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 
 import Banner from '../util/Banner';
 import RSSPage from '../util/RSSPage';
+import Video from '../util/Video';
 
 class Service extends Component {
     render() {
@@ -12,6 +13,8 @@ class Service extends Component {
                     bgr="/images/banners/2021_beachcleanup.jpeg"
                     valign="66%"
                 />
+                <Video video='/images/intro_video_edit.mp4' />
+                
             </RSSPage>
         )
     }
