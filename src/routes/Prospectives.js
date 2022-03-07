@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 
+import content from './Content'
 import RSSPage from '../util/RSSPage';
 import Banner from '../util/Banner';
 import OSP from '../util/OSP';
@@ -44,7 +45,7 @@ class Prospectives extends Component {
                 <ProspectivesIntro width={this.state.width} />
 
                 <div className="welcome_wrapper">
-                    <h2 className= "welcome_header"> welcome to our transfer welcome week!</h2> 
+                    <h2 className= "welcome_header"> welcome to our {content.OSP.toLowerCase()}!</h2> 
                     <div className= "welcome_to_osp">
                     Congratulations on receiving the Regents Scholarship! We originally intended to welcome you and other prospective 
                     RSS transfers with an in-person reception and a two-day overnight program at UCLA. However, due to COVID-19, we 
@@ -54,7 +55,7 @@ class Prospectives extends Component {
                     </div>
                 </div>
                
-                <TWR />
+                <OSP />
 
                 <TextPanel heading="contact us!">
                     <div className="osp_contact_wrapper">
@@ -269,23 +270,17 @@ class ProspectivesIntro extends Component {
                         </div>
                         <div className='letter_wrapper'>
                             <div className="evp_letter_header">
-                                a letter from our transfer affairs director
+                                a letter from our {content.EXTERNAL_VICE_PRESIDENT.toLowerCase()}
                             </div>
                             <div className="evp_letter_body">
-                                Dear prospective RSSer,
-                                <br/><br/>
-                                Congratulations on your acceptance to UCLA as a Regents Scholar, and welcome to UCLA RSS and TWR! 
-                                We are extremely excited to have you join us during our RSS Transfer Welcome Week (May 18 - May 21), 
-                                and can't wait to meet you virtually.
-                                <br/><br/>
-                                During these four days, you'll learn about the transfer process, and what UCLA and RSS are all 
-                                about — on top of meeting some lifelong friends and even potentially future roommates! If you have 
-                                any questions about UCLA or anything transfer related, and I mean any — this is the place to have 
-                                them answered. We look forward to meeting you soon!
+                                {content.WELCOME_LETTER[0]}
+                                {content.WELCOME_LETTER.slice(1).map((paragraph) => 
+                                    <><br/><br/>{paragraph}</>
+                                )}
                             </div>
-                            <div className="tad_letter_signature">- Michelle Garabetian</div>
+                            <div className="tad_letter_signature">- {content.CURRENT_EVP}</div>
                             <div className="evp_letter_title">
-                                Transfer Affairs Director
+                                {content.EXTERNAL_VICE_PRESIDENT}
                             </div>
                         </div>
                     </div>
@@ -335,20 +330,14 @@ class ProspectivesIntro extends Component {
                 </TextPanel>
                 <TextPanel heading="a letter from our external vice president" id="small-letter-panel">
                     <div className="evp_letter_body">
-                        Dear prospective RSSer,
-                        <br/><br/>
-                        Congratulations on your acceptance to UCLA as a Regents Scholar, and welcome to UCLA RSS and TWR! 
-                        We are extremely excited to have you join us during our RSS Transfer Welcome Week (May 18 - May 21), 
-                        and can't wait to meet you virtually.
-                        <br/><br/>
-                        During these four days, you'll learn about the transfer process, and what UCLA and RSS are all 
-                        about — on top of meeting some lifelong friends and even potentially future roommates! If you have 
-                        any questions about UCLA or anything transfer related, and I mean any — this is the place to have 
-                        them answered. We look forward to meeting you soon!
+                        {content.TWR_LETTER[0]}
+                        {content.TWR_LETTER.slice(1).map((paragraph) => 
+                            <><br/><br/>{paragraph}</>
+                        )}
                     </div>
-                    <div className="tad_letter_signature">- Michelle Garabetian</div>
+                    <div className="tad_letter_signature">- {content.CURRENT_EVP}</div>
                     <div className="evp_letter_title">
-                        External Vice President
+                        {content.EXTERNAL_VICE_PRESIDENT}
                     </div>
                 </TextPanel>
             </React.Fragment>
