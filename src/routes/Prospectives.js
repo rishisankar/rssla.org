@@ -47,11 +47,7 @@ class Prospectives extends Component {
                 <div className="welcome_wrapper">
                     <h2 className= "welcome_header"> welcome to our {content.OSP.toLowerCase()}!</h2> 
                     <div className= "welcome_to_osp">
-                    Congratulations on receiving the Regents Scholarship! We originally intended to welcome you and other prospective 
-                    RSS transfers with an in-person reception and a two-day overnight program at UCLA. However, due to COVID-19, we 
-                    have had to adjust our plans. Instead, we will be holding a virtual welcome week, starting 
-                    Tuesday, May 17 - Friday, May 21, where you can learn all about your scholarship, the society, and UCLA by 
-                    interacting with other prospective and current Regents Scholars! We are so excited to meet you!
+                        {content.WELCOME_BLURB}
                     </div>
                 </div>
                
@@ -59,16 +55,16 @@ class Prospectives extends Component {
 
                 <TextPanel heading="contact us!">
                     <div className="osp_contact_wrapper">
-                        {/*
-                        <div className="osp_contact_name">Rebecca Zhu</div>
+                        <div className="osp_contact_name">{content.CURRENT_EVP}</div>
                         <div className="osp_contact_email">
                             <a className="osp_contact_email_link" href="mailto:evp@rssla.org">evp@rssla.org</a>
                         </div>
-                        */}
+                        {/*
                         <div className="osp_contact_name">Michelle Garabetian</div>
                         <div className="osp_contact_email">
                             <a className="osp_contact_email_link" href="mailto:transfers@rssla.org">transfers@rssla.org</a>
                         </div>
+                        */}
                     </div>
                     <img className="osp_contact_img" src="/images/prospectives/contact_banner.png" alt="mountains"/>
                 </TextPanel>
@@ -266,6 +262,26 @@ class ProspectivesIntro extends Component {
                                     bgr="house.png"
                                     scale="90%"
                                 />
+                                <BenefitDescription
+                                    smallheading="mentorship &amp; families"
+                                    desc="All freshmen are able to match with a peer mentor and join a mentorship family. Your
+                                        mentor can guide you through choosing classes, joining student organizations, and any
+                                        advice you need. Your mentorship family is a group of RSSers you will become close friends with!"
+                                    bgr="family.png"
+                                />
+                                <BenefitDescription
+                                    smallheading="academic resources"
+                                    desc="We offer a variety of different educational resources for our members to take advantage of!
+                                        Whether it be resume reviews, information sessions, workshops, our test bank, or course planning 
+                                        events - we aim to ensure that each RSS member has the resources they need to succeed."
+                                    bgr="closedbook.png"
+                                />
+                                <BenefitDescription
+                                    smallheading="leadership opportunities"
+                                    desc="Through our committees, you can engage with the society, develop leadership skills, 
+                                        and utilize all of our resources! Applications open every fall quarter."
+                                    bgr="handshake.png"
+                                />
                             </BenefitWrapper>
                         </div>
                         <div className='letter_wrapper'>
@@ -326,12 +342,32 @@ class ProspectivesIntro extends Component {
                             bgr="house.png"
                             scale="90%"
                         />
+                        <BenefitDescription
+                            smallheading="mentorship &amp; families"
+                            desc="All freshmen are able to match with a peer mentor and join a mentorship family. Your
+                                mentor can guide you through choosing classes, joining student organizations, and any
+                                advice you need. Your mentorship family is a group of RSSers you will become close friends with!"
+                            bgr="family.png"
+                        />
+                        <BenefitDescription
+                            smallheading="academic resources"
+                            desc="We offer a variety of different educational resources for our members to take advantage of!
+                                Whether it be resume reviews, information sessions, workshops, our test bank, or course planning 
+                                events - we aim to ensure that each RSS member has the resources they need to succeed."
+                            bgr="closedbook.png"
+                        />
+                        <BenefitDescription
+                            smallheading="leadership opportunities"
+                            desc="Through our committees, you can engage with the society, develop leadership skills, 
+                                and utilize all of our resources! Applications open every fall quarter."
+                            bgr="handshake.png"
+                        />                        
                     </BenefitWrapper>
                 </TextPanel>
                 <TextPanel heading="a letter from our external vice president" id="small-letter-panel">
                     <div className="evp_letter_body">
-                        {content.TWR_LETTER[0]}
-                        {content.TWR_LETTER.slice(1).map((paragraph) => 
+                        {content.WELCOME_LETTER[0]}
+                        {content.WELCOME_LETTER.slice(1).map((paragraph) => 
                             <><br/><br/>{paragraph}</>
                         )}
                     </div>
