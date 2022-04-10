@@ -100,7 +100,7 @@ class OSP extends Component {
                             name="Cadence Chang"
                             year="1st year"
                             major="Computational and Systems Biology"
-                            img="jaslyn.jpg"
+                            img="cadence.jpg"
                             valign="10%"
                         >
                             Hi guys! Congratulations on receiving the Regents Scholarship! My name is Cadence Chang, and I’m one of your coords this year! 
@@ -116,7 +116,7 @@ class OSP extends Component {
                             name="Grace Chang"
                             year="1st year"
                             major="Physiological Science"
-                            img="emika.jpg"
+                            img="grace.jpg"
                             valign="20%"
                         >
                             Hello hello! I’m Grace, and I am a first year Physiological Science major looking to enter medicine in the (not so) near future. 
@@ -129,8 +129,8 @@ class OSP extends Component {
                             name="Samuel Lu"
                             year="1st year"
                             major="Math of Computation"
-                            img="teresa.jpg"
-                            valign="40%"
+                            img="sam.jpg"
+                            valign="20%"
                         >
                             Hi! I’m Samuel Lu, one of your five electrifying OSP coordinators :) I'm a first year math of computation major with a significant interest in computer science.
                             <br/><br/>
@@ -142,8 +142,9 @@ class OSP extends Component {
                             name="Tiffany Mok"
                             year="1st year"
                             major="Business Economics"
-                            img="lexi.jpg"
+                            img="tiffany.jpg"
                             halign="45%"
+                            valign="20%"
                         >
                             Hi prospies :) My name is Tiffany, and I am a first-year Business Economics major from Daly City, California (right next to SF).
                             <br/><br/>
@@ -155,8 +156,9 @@ class OSP extends Component {
                             name="Estrella Rico"
                             year="1st year"
                             major="Music History and Industry"
-                            img="lexi.jpg"
+                            img="estrella.jpg"
                             halign="45%"
+                            valign="20%"
                         >
                             Hello and congratulations on receiving the Regents Scholarship! My name is Estrella Rico, a first-generation college student from Santa Barbara. I am a first-year Music History and Industry major with a tentative Entrepreneurship minor!                            
                             <br/><br/>
