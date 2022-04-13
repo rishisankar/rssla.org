@@ -109,7 +109,7 @@ class ProspectivesIntro extends Component {
                                     bgr="openbook.png"
                                 />
                                 <BenefitDescription
-                                    heading="13"
+                                    heading="10"
                                     subheading="units"
                                     desc="Priority enrollment in 13 class units, starting in their second quarter."
                                     bgr="pencil.png"
@@ -255,10 +255,9 @@ class ProspectivesIntro extends Component {
                                     scale="90%"
                                 />
                                 <BenefitDescription
-                                    heading="2"
+                                    heading="4"
                                     subheading="years"
-                                    desc="Two years of university housing upon submission of the Housing application. 
-                                        Additionally, a parking pass upon submission of the Parking application."
+                                    desc="A parking pass upon submission of the Parking application in addition to four years of university housing."
                                     bgr="house.png"
                                     scale="90%"
                                 />
@@ -328,17 +327,16 @@ class ProspectivesIntro extends Component {
                             bgr="openbook.png"
                         />
                         <BenefitDescription
-                            heading="13"
+                            heading="10"
                             subheading="units"
                             desc="Priority enrollment in 10 class units, starting in their second quarter."
                             bgr="pencil.png"
                             scale="90%"
                         />
                         <BenefitDescription
-                            heading="2"
+                            heading="4"
                             subheading="years"
-                            desc="Two years of university housing upon submission of the Housing application. 
-                                Additionally, a parking pass upon submission of the Parking application."
+                            desc="A parking pass upon submission of the Parking application in addition to four years of university housing."
                             bgr="house.png"
                             scale="90%"
                         />
