@@ -36,14 +36,14 @@ class OSP extends Component {
     }
 
     getInPerson(result) {
-        console.log("entered get in = person")
         console.log(result)
         this.setState({inPerson: result.data})
     }
 
     async getCSVData() {
-        let inPersonData = await this.fetchCSVData('/osp_inperson.csv')
-        let virtualData = await this.fetchCSVData('/osp_virtual.csv');
+        let inPersonData = await this.fetchCSVData('osp_inperson.csv')
+        let virtualData = await this.fetchCSVData('osp_virtual.csv');
+        console.log("okay, just got the CSV data");
 
         Papa.parse(inPersonData, {
             complete: this.getInPerson
@@ -56,7 +56,6 @@ class OSP extends Component {
     }
 
     componentDidMount() {
-        console.log("component did mount")
         console.log(this.state);
     }
     
@@ -64,7 +63,7 @@ class OSP extends Component {
     render() {
         return (
             <div className="osp">
-                <OSPWrapper class="osp1_wrapper">
+                {/* <OSPWrapper class="osp1_wrapper">
                     <div>state</div>
                     <OSPMountains src="day_mountains.png" />
                     <OSPHeading name="osp in-person"/>
@@ -80,7 +79,7 @@ class OSP extends Component {
                             })}
                         </OSPContentDay>
                     </OSPContentWrapper>
-                </OSPWrapper>
+                </OSPWrapper> */}
                 <OSPWrapper class="osp2_wrapper">
                     <OSPMountains src="night_mountains.png" />
                     <OSPHeading name="osp virtual"/>
@@ -222,9 +221,7 @@ function OSPContentDay(props) {
 function OSPEvent(props) {
     return (
         <div className="osp_event_wrapper">
-            <div className="osp_event_time">{props.time}</div>
-            {console.log(props.location)}
-            
+            <div className="osp_event_time">{props.time}</div>            
             <div className="osp_event_desc">
                 <div className="osp_event_desc_heading">
                     {props.label}
