@@ -49,7 +49,7 @@ class Header extends Component {
                                 ]}
                     />
                     <NavBox label="gallery" link="gallery" external={false} />
-                    <NavBox label="prospectives" link="prospectives" external={false}/>
+                    <NavBox label="prospectives" link="prospectivesold" external={false}/>
                     <NavBox label="contact us" link="contact" external={false}/>
                     <NavBox label="shop" link="https://rssmerch.myshopify.com/" external={true}/>
                 </NavItems>
