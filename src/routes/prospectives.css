@@ -64,7 +64,7 @@
     }
     
     .prospectives #we-are-rss-panel {
-        padding-bottom: 0px;
+        padding-bottom: calc(30px + 0.5vw);
     }
 
     .prospectives .evp_letter_body {
