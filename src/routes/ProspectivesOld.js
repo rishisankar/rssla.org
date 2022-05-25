@@ -76,7 +76,7 @@ class ProspectivesOld extends Component {
                     </BenefitWrapper>
                 </TextPanel>
 
-                <TextPanel heading="office hours" id="third-text-panel">
+                {/* <TextPanel heading="office hours" id="third-text-panel">
                     Office Hours this week at the following Zoom link: <a href="https://ucla.zoom.us/j/3430056826">https://ucla.zoom.us/j/3430056826</a>
                     <div className="osp">
                         <OSPWrapper class="osp2_wrapper">
@@ -103,7 +103,7 @@ class ProspectivesOld extends Component {
                     </div>
 
                     
-                </TextPanel>
+                </TextPanel> */}
 
             </RSSPage>
         )
