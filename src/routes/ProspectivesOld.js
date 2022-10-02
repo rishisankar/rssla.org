@@ -14,9 +14,9 @@ class ProspectivesOld extends Component {
             <RSSPage className="prospectives_old">
                 <Banner 
                     text="prospectives" 
-                    bgr="/images/banners/2017_Conference.jpg"
-                    darkness="0"
-                    valign="65%"
+                    bgr="/images/banners/PAB.jpg"
+                    darkness="0.1"
+                    valign="75%"
                 />
 
                 <TextPanel heading="the scholarship" id="first-text-panel">

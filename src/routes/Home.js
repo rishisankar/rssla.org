@@ -14,15 +14,15 @@ class Home extends Component {
                 <Banner 
                     text="this is rss" 
                     subtext="regents scholar society at ucla" 
-                    video="true"
-                    bgr="/images/banners/2018_Banquet.JPG"
-                    darkness="0.1"
+                    // video="true"
+                    bgr="/images/banners/royce-sideview.jpg"
+                    darkness="0.2"
                     valign="70%"
                 />
 
                 <ImageTextPanel 
                     heading="about us"
-                    image="/images/gallery/2019_bonfire.jpg"
+                    image="/images/banners/f21-dockweiler.jpg"
                     align="left"
                 >
                     The Regents Scholar Society is composed of students with 

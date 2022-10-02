@@ -16,6 +16,8 @@ import ProspectivesOld from './routes/ProspectivesOld';
 import Contact from './routes/Contact';
 import Service from './routes/Service';
 
+import ResetScroll from './util/ResetScroll'
+
 ReactDOM.render(
   <React.StrictMode>
     <Routes />
@@ -26,17 +28,19 @@ ReactDOM.render(
 function Routes(props) {
   return (
     <BrowserRouter>
-      <Switch>
-        <Route exact path="/"><Home key={Math.random()}/></Route>
-        <Route exaxt path="/programs"><Programs /></Route>
-        <Route exaxt path="/committees"><Committees /></Route>
-        <Route exaxt path="/board"><Board /></Route>
-        <Route exaxt path="/gallery"><Gallery /></Route>
-        <Route exaxt path="/prospectives"><Prospectives /></Route>
-        <Route exaxt path="/contact"><Contact /></Route>
-        <Route exaxt path="/prospectivesold"><ProspectivesOld /></Route>
-        {/* <Route exaxt path="/service"><Service /></Route> */}
-      </Switch>
+      <ResetScroll>
+        <Switch>
+          <Route exact path="/"><Home key={Math.random()}/></Route>
+          <Route exaxt path="/programs"><Programs /></Route>
+          <Route exaxt path="/committees"><Committees /></Route>
+          <Route exaxt path="/board"><Board /></Route>
+          <Route exaxt path="/gallery"><Gallery /></Route>
+          <Route exaxt path="/prospectives"><Prospectives /></Route>
+          <Route exaxt path="/contact"><Contact /></Route>
+          <Route exaxt path="/prospectivesold"><ProspectivesOld /></Route>
+          {/* <Route exaxt path="/service"><Service /></Route> */}
+        </Switch>
+      </ResetScroll>
     </BrowserRouter>
   )
 }

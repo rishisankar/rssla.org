@@ -34,7 +34,7 @@ class Footer extends Component {
                 </div>
 
                 <div className="copyright-information">
-                    &#169; 2020, Regents Scholar Society, UCLA. All rights reserved.<br/>
+                    &#169; 2022, Regents Scholar Society, UCLA. All rights reserved.<br/>
                 </div>
             </div>
         )

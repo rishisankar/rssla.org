@@ -38,40 +38,10 @@ class Programs extends Component {
             <RSSPage className="programs">
                 <Banner 
                     text="programs"
-                    bgr="/images/banners/2019_Conference.jpg"
-                    darkness="0.1"
-                    valign="65%"
+                    bgr="/images/banners/powell-bottom-up.jpg"
+                    darkness="0.2"
+                    valign="45%"
                 />
-
-                <ImageTextPanel 
-                    heading="l.a.m.p."
-                    image="/images/images/lamp.jpg"
-                    align="left"
-                    height={this.state.longestPanelHeight}
-                >       
-                    The Los Angeles Mentorship Program (LAMP) provides UCLA
-                    students the opportunity to give back to the local community
-                    through tutoring at University High School. This program aims
-                    to provide resources to underserved youth - giving them
-                    access to SAT and ACT preparation along with workshops regarding
-                    financial literacy, college applications, and more.
-                </ImageTextPanel>
-                
-                <ImageTextPanel 
-                    heading="s.p.i.e.l."
-                    image="/images/images/2018_spiel.png"
-                    align="right"
-                >
-                    SPIEL stands for Students Presenting, Innovating, Entertaining 
-                    and Learning. Inspired by TED Talks, this campus-wide speaker 
-                    event is put on by students, for students. The aim of SPIEL is to 
-                    give students from all backgrounds the chance to talk about something 
-                    that is not only important to the presenters themselves, but is also 
-                    often important to the greater UCLA and global community.
-                    <p/>
-                    In the past, SPIEL presenters have addressed a variety of topics, 
-                    ranging from mental health to ground-breaking student research.
-                </ImageTextPanel>
 
                 <ImageTextPanel 
                     heading="service"
@@ -101,6 +71,36 @@ class Programs extends Component {
                     fields of study.
                 </ImageTextPanel>
 
+                <ImageTextPanel 
+                    heading="s.p.i.e.l."
+                    image="/images/images/2018_spiel.png"
+                    align="left"
+                >
+                    SPIEL stands for Students Presenting, Innovating, Entertaining 
+                    and Learning. Inspired by TED Talks, this campus-wide speaker 
+                    event is put on by students, for students. The aim of SPIEL is to 
+                    give students from all backgrounds the chance to talk about something 
+                    that is not only important to the presenters themselves, but is also 
+                    often important to the greater UCLA and global community.
+                    <p/>
+                    In the past, SPIEL presenters have addressed a variety of topics, 
+                    ranging from mental health to ground-breaking student research.
+                </ImageTextPanel>
+
+                <ImageTextPanel 
+                    heading="l.a.m.p."
+                    image="/images/images/lamp.jpg"
+                    align="right"
+                    height={this.state.longestPanelHeight}
+                >       
+                    The Los Angeles Mentorship Program (LAMP) provides UCLA
+                    students the opportunity to give back to the local community
+                    through tutoring at University High School. This program aims
+                    to provide resources to underserved youth - giving them
+                    access to SAT and ACT preparation along with workshops regarding
+                    financial literacy, college applications, and more.
+                </ImageTextPanel>
+            
                 <ImageTextPanel 
                     heading="other events"
                     image="/images/images/2020_broomball2.jpg"

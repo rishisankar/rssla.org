@@ -17,11 +17,60 @@ class Gallery extends Component {
             <RSSPage className="gallery">
                 <Banner 
                     text="gallery" 
-                    bgr="/images/banners/2020_broomball_banner.JPG"
-                    darkness="0.1"
-                    valign="65%"
+                    bgr="/images/banners/w22-broomball.jpg"
+                    darkness="0.2"
+                    valign="50%"
                 />
                 <div className="gallery-content">
+                    <GalleryRow>
+                        <GalleryCol flex="1">
+                            <GalleryEntry
+                                src="f21-kayaking.JPEG"
+                                alt="photo"
+                                pb="3.35vw"
+                            />
+                            <GalleryRow>
+                                <GalleryCol flex="1">
+                                    <GalleryEntry
+                                        src="welcome-cookies.jpeg"
+                                        alt="photo"
+                                    />
+                                </GalleryCol>
+                                <GalleryCol flex="1" pl="3.4vw">
+                                    <GalleryEntry
+                                        src="drippy-daniel.jpg"
+                                        alt="photo"
+                                    />
+                                </GalleryCol>
+                            </GalleryRow>
+                        </GalleryCol>
+                        <GalleryCol flex="1" pl="3vw">
+                            <GalleryEntry
+                                src="f21-dockweiler.JPEG"
+                                alt="photo"
+                            />
+                        </GalleryCol>
+                    </GalleryRow>
+                    <GalleryRow>
+                        <GalleryCol flex="1">
+                            <GalleryEntry
+                                src="f21-beach-cleanup.jpeg"
+                                alt="photo"
+                            />
+                        </GalleryCol>
+                        <GalleryCol flex="1" pl="3vw">
+                            <GalleryEntry
+                                src="party-of-five.jpeg"
+                                alt="photo"
+                            />
+                        </GalleryCol>
+                        <GalleryCol flex="1" pl="3vw">
+                            <GalleryEntry
+                                src="group-shot-626.jpeg"
+                                alt="photo"
+                            />
+                        </GalleryCol>
+                    </GalleryRow>
                     <GalleryRow>
                         <GalleryCol flex="1.1787">
                             <GalleryEntry

@@ -23,24 +23,24 @@ class Committees extends Component {
             <RSSPage className="committees">
                 <Banner 
                     text="committees" 
-                    bgr="/images/prospectives/banner.png"
+                    bgr="/images/banners/powell-chandelier.jpg"
                     darkness="0.2"
                     valign="65%"
                 />
 
                 <ImageTextPanel 
                     heading="what are committees?"
-                    image="/images/gallery/2019_game_night.JPG"
+                    image="/images/gallery/committees.jpg"
                     align="left"
                     id="committees-text-panel"
                 >
                     Committees are a way for members of the Regents Scholar Society to become more involved with
                     the RSS community and take on a leadership role within the society. Our committees shape the
                     direction of our society: committee members help organize events and activities, raise funds,
-                    work on design and tech projects for the society, and much more!
+                    work on design projects for the society, and much more!
                     <p/>
                     Each committee is led by
-                    one or more board members and will have virtual social activities to help members get to know 
+                    one or more board members and will meet regularly and have socials to help members get to know 
                     one another and engage with RSS.
                 </ImageTextPanel>
 
@@ -48,12 +48,12 @@ class Committees extends Component {
                     heading="join a committee!"
                     id="join-committee-panel"
                 >
-                    2021-2022 Committee Applications will open a few weeks after fall quarter starts. There are
-                    six committees you can join this year:
+                    2022-2023 committee applications will open a few weeks after fall quarter starts. There are
+                    five committees you can join this year:
                     <div className="committees-list-wrapper">
                         <CommitteeEntry
                             name="A.C.E. Committee"
-                            leaders="Andrew, Karine, Zack, and Daniel"
+                            leaders="Cadence, Tiffany, Juan, and Alvin"
                         >
                             The A.C.E. Committee manages activities, community service, and educational programs. 
                             The committee helps plan fun and affordable social activities, arranges community 
@@ -61,7 +61,7 @@ class Committees extends Component {
                         </CommitteeEntry>
                         <CommitteeEntry
                             name="Funding Committee"
-                            leaders="Aditya and Bilal"
+                            leaders="America and Bilal"
                         >
                             The Funding Committee is in charge of fundraising, including brainstorming innovative ideas
                             and organizing the logistics for the fundraisers. The Funding Committee also serves as 
@@ -69,23 +69,23 @@ class Committees extends Component {
                         </CommitteeEntry>
                         <CommitteeEntry
                             name="Special Events Committee"
-                            leaders="Donya, Chelsey, and Anusha"
+                            leaders="Anusha, Joy, and Daniel"
                         >
                             The Special Events Committee plans the Society's large-scale events, such as S.P.I.E.L. 
                             and winter retreat. In addition, the committee advocates for the needs of all members, 
                             from first to fourth years, transfers, and non-traditional students.
                         </CommitteeEntry>
-                        <CommitteeEntry
+                        {/* <CommitteeEntry
                             name="Tech Committee"
                             leaders="David"
                         >
                             The Tech Committee works on tech-related projects with a focus on improving the society.
                             Committee members help maintain and add new features/pages to the RSS website,
                             or collaborate on other projects based on interest.
-                        </CommitteeEntry>
+                        </CommitteeEntry> */}
                         <CommitteeEntry
                             name="Design Committee"
-                            leaders="Joy"
+                            leaders="Daisy"
                         >
                             The Design Committee creates digital flyers and design RSS merch, as well as work on designs
                             for RSS projects. The committee also helps manage our social media accounts and promote our
@@ -93,7 +93,7 @@ class Committees extends Component {
                         </CommitteeEntry>
                         <CommitteeEntry
                             name="Transfer Affairs Committee"
-                            leaders="Marilyn"
+                            leaders="Cody"
                         >
                             The Transfer Affairs Committee works to make the Regents Scholar Society a transfer-inclusive
                             space by promoting academic, educational, and professional resources to ensure success.
