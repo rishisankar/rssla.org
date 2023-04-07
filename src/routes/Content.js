@@ -1,22 +1,22 @@
 const content = {
-    CURRENT_EVP: "Anusha Fatehpuria",
+    CURRENT_EVP: "Joy Lee",
     EXTERNAL_VICE_PRESIDENT: "External Vice President",
     WELCOME_LETTER: [`
                  Dear prospective RSSer,
                  `,
                  `
-                 Congratulations on your acceptance to UCLA as a Regents Scholar, and welcome to UCLA RSS and OSP!
-                 We are extremely excited to have you in our OSP, and can't wait to meet you virtually.
+                 Congratulations on being accepted to UCLA and receiving the Regents Scholarship! We are so excited to welcome you to OSP!
                  `,
                  `
-                 On this day, you'll learn what college, UCLA, and RSS are all about — on top of meeting 
-                 some lifelong friends and even potentially future roommates! If you have any questions about college, 
-                 and I mean any — this is the place to have them answered. We look forward to meeting you soon!
+                 OSP is the best place to discover and experience what UCLA and RSS has in store for you. Along the way, you’ll bond with other prospective students/current RSSers and even meet your lifelong friends! 
+                 `,
+                 `
+                 I hope that you guys will have an amazing time at OSP, and I can’t wait to meet all of you here!
                  `
                 ],
     OSP: "Overnight Stay Program",
     TWR: "Transfer Welcome Week",
-    WELCOME_BLURB: "Congratulations on receiving the Regents Scholarship! Historically, OSP has stood for our Overnight Stay Program, which takes place over the course of 3 day, 2 night programs at UCLA. In light of current events, we will be offering a virtual program this year: one full day of virtual activities on April 24. A key aspect of OSP includes Q&A panels for academics and campus life, social activities, and more. In order to get the full OSP experience, we highly recommend you arrange your schedule to let you attend the session from beginning to end. However, we understand if circumstances may prevent you from doing so, and invite you to events for which you are available and feel comfortable attending. We’re excited to see you soon!",
+    WELCOME_BLURB: "Welcome to UCLA! OSP is an opportunity to get to know the people you'll be spending time with possibly for the next four years! Meet the coordinators, current students, and other prospective students as you get a taste of life at UCLA!",
     
 
 }

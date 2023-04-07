@@ -11,12 +11,12 @@ class OSP extends Component {
         super(props);
 
         this.state = {
-            virtual: [],
             inPerson: [],
+            virtual: []
         };
 
-        this.getVirtual = this.getVirtual.bind(this)
-        this.getInPerson = this.getInPerson.bind(this)
+        this.getInPerson = this.getInPerson.bind(this);
+        this.getVirtual = this.getVirtual.bind(this);
         this.getCSVData();
     }
 
@@ -31,23 +31,22 @@ class OSP extends Component {
         })
     }
 
-    getVirtual(result) {
-        this.setState({virtual: result.data});
-    }
-
     getInPerson(result) {
-        console.log(result)
         this.setState({inPerson: result.data})
     }
 
+    getVirtual(result) {
+        this.setState({virtual: result.data})
+    }
+
     async getCSVData() {
-        let inPersonData = await this.fetchCSVData('osp_inperson.csv')
-        let virtualData = await this.fetchCSVData('osp_virtual.csv');
-        console.log("okay, just got the CSV data");
+        let inPersonData = await this.fetchCSVData('osp_inperson.csv');
 
         Papa.parse(inPersonData, {
             complete: this.getInPerson
         });
+
+        let virtualData = await this.fetchCSVData('osp_virtual.csv');
 
         Papa.parse(virtualData, {
             complete: this.getVirtual
@@ -82,9 +81,20 @@ class OSP extends Component {
                 </OSPWrapper> */}
                 <OSPWrapper class="osp2_wrapper">
                     <OSPMountains src="night_mountains.png" />
-                    <OSPHeading name="osp virtual"/>
+                    <OSPHeading name="osp itinerary"/>
                     <OSPContentWrapper>
-                        <OSPContentDay label="april 24, 2022" id="first_osp_label">
+                        <OSPContentDay label="Saturday April 15th - In Person" id="first_osp_label">
+                            {this.state.inPerson.slice(1).map((arr) => {
+                                    return <OSPEvent
+                                        time={arr[0]}
+                                        label={arr[1]}
+                                        desc={arr[2]}
+                                    />
+                                })}
+                        </OSPContentDay>
+                        <br></br>
+                        <br></br>
+                        <OSPContentDay label="Sunday April 16th - Virtual" id="first_osp_label">
                             {this.state.virtual.slice(1).map((arr) => {
                                     return <OSPEvent
                                         time={arr[0]}
@@ -96,74 +106,77 @@ class OSP extends Component {
                     </OSPContentWrapper>
                     <OSPCoordWrapper>
                         <OSPCoord
-                            name="Cadence Chang"
+                            name="Brianna Bayliss"
                             year="1st year"
-                            major="Computational and Systems Biology"
-                            img="cadence.jpg"
+                            major="Mechanical Engineering"
+                            img="brianna.jpg"
                             valign="10%"
                         >
-                            Hi guys! Congratulations on receiving the Regents Scholarship! My name is Cadence Chang, and I’m one of your coords this year! 
-                            
-
+                            Hi! I am Brianna Bayliss, a first-year Mechanical Engineering Major from Orange County, CA.
                             <br/><br/>
-                            I’m a first year Computational and Systems Biology major interested in attending medical school after undergrad. In my free time, I enjoy working out at BFit, getting boba at Sharetea, or hammocking in Sunset Village. On campus, I’m involved in the Radu Lab, AMWA, CMLA, ACM, and the Triathlon Club.
+                            I am constantly trying new things, but my current favorite pastimes are clay sculpting, painting, and being part of UCLA’s rocket competition team. Of course, none of those top the sheer joy I get from RSS events and being in a close-knit community of wonderfully kind, fun, and inspired students.
                             <br/><br/>
-                            I’m also a member of the ACE and Special Events Committees for RSS, so you’ll probably see me around in the Discord! I’m super excited to meet all of you, so don’t hesitate to reach out with any questions and always feel free to “sling” by to say hi! :)
+                            I look forward to meeting you all and I cannot congratulate you enough on this accomplishment! 
 
                         </OSPCoord>
                         <OSPCoord
-                            name="Grace Chang"
+                            name="Rebecca Lee"
+                            year="1st year"
+                            major="Biochemistry"
+                            img="rebecca.jpg"
+                            valign="20%"
+                        >
+                            Hey! My name is Rebecca, I’m a first-year biochemistry major, and I’m thrilled to be one of your coords for OSP.
+                            <br/><br/>
+                            Outside of RSS, I’m in SMACS (Student Members of the American Chemical Society), the Alumni Scholars Club, Con Brio String Orchestra, and I’m just starting to work in a biomolecular engineering lab. My hobbies include knitting, singing, skating, logic puzzles, and learning new things!
+                            <br/><br/>
+                            Congratulations on UCLA and Regents, and I’m so excited to meet you all!
+
+                        </OSPCoord>
+                        <OSPCoord
+                            name="Shannon Shams"
                             year="1st year"
                             major="Physiological Science"
-                            img="grace.jpg"
+                            img="shannon.jpg"
                             valign="20%"
                         >
-                            Hello hello! I’m Grace, and I am a first year Physiological Science major looking to enter medicine in the (not so) near future. 
+                            Hi everyone, my name is Shannon Shams, and I’m very excited to be one of your OSP coords this year!
                             <br/><br/>
-                            Outside of class, I enjoy nature photography (PS, the crab-eating macaque is the best model you’ll ever encounter), food hunting with my friends, MBTI, and creating Spotify playlists. On campus, I’m involved with the RSS A.C.E Committee, Alumni Scholars Club, Bruin Vision Project, and soon an ophthalmology research lab (yes, eyes are really cool). 
+                            I’m a first year, pre-med student majoring in Physiological Science, and I grew up in the San Fernando Valley here in LA. Outside of RSS, I’m involved in Bruins for Accessible Education (BAE), Building Engineers and Mentors (BEAM), Bruin Surgical Undergraduate Society (BSUS), and Matriculate at UCLA. For fun, I love listening to music, playing the guitar, watching the sunset at Janss Steps, visiting the Botanical Gardens, and attending all of RSS’s events.
                             <br/><br/>
-                            Congratulations on all you have accomplished so far, and I can’t wait to bring on the magic at OSP!
+                            I’m looking forward to meeting you all and showing you everything there is to take in from RSS and UCLA!
                         </OSPCoord>
                         <OSPCoord
-                            name="Samuel Lu"
+                            name="Joshua Hockman"
                             year="1st year"
-                            major="Math of Computation"
-                            img="sam.jpg"
-                            valign="20%"
-                        >
-                            Hi! I’m Samuel Lu, one of your five electrifying OSP coordinators :) I'm a first year math of computation major with a significant interest in computer science.
-                            <br/><br/>
-                            On campus I'm involved in the Association of Computer Machinery (ACM), the badminton club, as well as the Tech and Activities/Community/Education (ACE) committees of our very own Regents Scholar Society. Whenever I'm free I like to watch movies/sports, play cards/boardgames, hammer out on the piano, and explore the sprawling, eclectic city that is Los Angeles.
-                            <br/><br/>
-                            I'm super excited to meet all of you and show you how strikingly beautiful UCLA is! Feel free to hit me up anytime if you want to talk about college or music!
-                        </OSPCoord>
-                        <OSPCoord
-                            name="Tiffany Mok"
-                            year="1st year"
-                            major="Business Economics"
-                            img="tiffany.jpg"
+                            major="Biochemistry"
+                            img="joshua.jpeg"
                             halign="45%"
                             valign="20%"
                         >
-                            Hi prospies :) My name is Tiffany, and I am a first-year Business Economics major from Daly City, California (right next to SF).
+                            Howdy all, my name is Joshua Hockman and I’m a first year biochemistry major from Yorba Linda, CA and I’m very excited to be one of your coords!
                             <br/><br/>
-                            I am involved in multiple organizations on campus, from RSS to the Undergraduate Business Society to the Association of Chinese Americans. When I am not studying, you will most likely find me roaming around campus or finding new places to spontaneously explore. I love to travel, watch Bay Area sports, and eat good food (especially desserts!).
+                            Apart from class and RSS outings, you’ll typically find me at Intervarsity BCF and Grace on Campus events here at UCLA.  On weekends, I’m usually scattered somewhere in SoCal coaching a middle school Science Olympiad team.
                             <br/><br/>
-                            If you ever have any questions, don’t be shy and please reach out! I am so stoked to meet you, and I hope you all have an incredible time at OSP! 
+                            I can’t wait to welcome you to our RSS family!
+
                         </OSPCoord>
                         <OSPCoord
-                            name="Estrella Rico"
+                            name="Nyla Zia"
                             year="1st year"
-                            major="Music History and Industry"
-                            img="estrella.jpg"
+                            major="Computer Science"
+                            img="nyla.jpeg"
                             halign="45%"
                             valign="20%"
                         >
-                            Hello and congratulations on receiving the Regents Scholarship! My name is Estrella Rico, a first-generation college student from Santa Barbara. I am a first-year Music History and Industry major with a tentative Entrepreneurship minor!                            
+                            Hey everyone! My name is Nyla and I am so excited to welcome you all to RSS here at UCLA!
                             <br/><br/>
-                            I am currently involved in a beginning mariachi group here at UCLA, I am Volunteer Research Assistant in Multicultural Praxis Lab, and, of course, I am a member of RSS! Apart from classes and extracurriculars, you will usually find me trying new foods, making Spotify playlists with extremely specific titles, binge-watching Love Island UK, or listening to podcasts.
+                            I am a first year Computer Science major from the Bay Area. Alongside RSS, I am a part of several engineering organizations such as ACM and SWE. Outside of academics, I love to dance, play ultimate frisbee on the giant IM field, and sing karaoke with my friends!
                             <br/><br/>
-                            Feel free to ask me any questions on committing to UCLA as a first-generation college student and how RSS has impacted my experience here at UCLA! I can’t wait for OSP 2022 to be a smash!                        </OSPCoord>
+                            Congratulations on this achievement and I can’t wait for you to see how amazing both RSS and UCLA are!
+
+
+                        </OSPCoord>
                     </OSPCoordWrapper>
                 </OSPWrapper>
             </div>
