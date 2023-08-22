@@ -33,56 +33,57 @@ class Board extends Component {
                 <BoardProfile width={this.state.width}
                     title="President"
                     name="Cody England"
-                    major="Human Biology and Society, 2023"
-                    img="Anusha.JPG"
+                    major="Chemical Engineering and Applied Mathematics, 2024"
+                    img="Cody.JPG"
                     size="150% auto"
                     halign="48%"
                     valign="30%"
                 />
                 <BoardProfile width={this.state.width}
                     title="External Vice President"
-                    name="Joy Lee"
-                    major="Psychobiology, 2023"
-                    img="Joy.png"
-                    size="200% auto"
-                    halign="50%"
-                    valign="2%"
+                    name="Alvin Liu"
+                    major="Mathematics, 2024"
+                    img="Alvin.JPG"
+                    size="180% auto"
+                    halign="41%"
+                    valign="35%"
                 />
                 <BoardProfile width={this.state.width}
                     title="Internal Vice President"
-                    name="Daniel Kao"
-                    major="Computer Science, 2024"
-                    img="Daniel.jpeg"
-                    size="140% auto"
-                    halign="40%"
-                    valign="37%"
+                    name="Cadence Chang"
+                    major="Computational & Systems Biology, 2025"
+                    img="Cadence.jpg"
+                    size="115% auto"
+                    halign="45%"
+                    valign="35%"
                 />
                 <BoardProfile width={this.state.width}
                     title="Secretary"
-                    name="Karine Kim"
-                    major="Physiological Science/Anthropology, 2023"
-                    img="Karine.jpg"
-                    size="115% auto"
-                    halign="40%"
+                    name="Joshua Hockman"
+                    major="Biochemistry, 2026"
+                    img="Joshua.png"
+                    size="232% auto"
+                    halign="47%"
+                    valign = "58%"
                 />
                 <BoardProfile width={this.state.width}
                     title="Activities Director"
-                    name="Cadence Chang"
-                    major="Psychobiology, 2025"
-                    img="Cadence.jpg"
-                    size="120% auto"
-                    halign="52%"
-                    valign="20%"
+                    name="Brianna Bayliss"
+                    major="Mechanical Engineering, 2026"
+                    img="Brianna.jpeg"
+                    size="105% auto"
+                    halign="70%"
+                    valign="25%"
 
                 />
                 <BoardProfile width={this.state.width}
                     title="Activities Director"
-                    name="Tiffany Mok"
-                    major="Business Economics, 2025"
-                    img="Tiffany.JPG"
+                    name="Rebecca Lee"
+                    major="Biochemistry, 2026"
+                    img="Rebecca.jpg"
                     size="180% auto"
-                    halign="55%"
-                    valign="30%"
+                    halign="50%"
+                    valign="20%"
 
                 />
                 <BoardProfile width={this.state.width}
@@ -90,24 +91,27 @@ class Board extends Component {
                     name="Juan Vergara"
                     major="Computational & Systems Biology, 2025"
                     img="Juan.jpg"
+                    size="110% auto"
+                    halign = "50%"
+                    valign="65%"
                 />
                 <BoardProfile width={this.state.width}
                     title="Educational Programs Director"
-                    name="Alvin Liu"
-                    major="Mathematics, 2024"
-                    img="Alvin.JPG"
-                    size="180% auto"
-                    halign="38%"
-                    valign="30%"
+                    name="Shannon Shams"
+                    major="Physiological Science, 2026"
+                    img="Shannon.jpg"
+                    size="110% auto"
+                    halign="50%"
+                    valign="60%"
                 />
                 <BoardProfile width={this.state.width}
-                    title="Funding Director"
-                    name="America Barrera"
-                    major="Data Theory, 2025"
-                    img="America.jpg"
-                    size="190% auto"
-                    halign="48%"
-                    valign="42%"
+                    title="Finance Director"
+                    name="Cheryl Wu"
+                    major="Computer Science and Economics, 2026"
+                    img="Cheryl.JPG"
+                    size="130% auto"
+                    halign="50%"
+                    valign="30%"
                 />
                 {/* <BoardProfile width={this.state.width}
                     title="LAMP Director"
@@ -126,23 +130,32 @@ class Board extends Component {
                 /> */}
                 <BoardProfile width={this.state.width}
                     title="Publicity Director"
+                    name="Tiffany Mok"
+                    major="Economics and Psychology, 2025"
+                    img="Tiffany.JPG"
+                    size="170% auto"
+                    halign="55%"
+                    valign="38%"
+                />
+                <BoardProfile width={this.state.width}
+                    title="Publicity Director"
                     name="Daisy Perez"
-                    major="Business Economics, 2025"
-                    img="Daisy.jpeg"
-                    size="135% auto"
+                    major="Economics, 2025"
+                    img="Daisy.jpg"
+                    size="120% auto"
                     halign="50%"
-                    valign="2%"
+                    valign="67%"
                 />
                 <BoardProfile width={this.state.width}
                     title="Transfer Affairs Director"
-                    name="Cody England"
-                    major="Chemical Engineering, 2024"
-                    img="Cody.JPG"
-                    size="160% auto"
-                    halign="46%"
+                    name="Kenneth Nguyen"
+                    major="Civil Engineering, 2024"
+                    img="Kenneth.jpg"
+                    size="100% auto"
+                    halign="50%"
                     valign="27%"
                 />
-                <BoardProfile width={this.state.width}
+                {/* <BoardProfile width={this.state.width}
                     title="Treasurer"
                     name="Bilal Hamid"
                     major="Microbiology, Immunology, and Molecular Genetics, 2023"
@@ -150,15 +163,15 @@ class Board extends Component {
                     size="180% auto"
                     valign="30%"
                     halign="50%"
-                />
+                /> */}
                 <BoardProfile width={this.state.width}
                     title="Webmaster"
-                    name="Samuel Lu"
-                    major="Computer Science, Applied Mathematics, 2025"
-                    img="Sam.jpeg"
-                    size="230% auto"
-                    valign="47%"
-                    halign="40%"
+                    name="America Barrera"
+                    major="Statistics & Data Science, 2025"
+                    img="America.JPG"
+                    size="100% auto"
+                    halign="55%"
+                    valign="58%"
                 />
             </>
         )
@@ -188,7 +201,7 @@ class BoardProfile extends Component {
         const valign = this.props.valign == null ? "0%" : this.props.valign; //picture movement vertically
         const size = this.props.size == null ? "cover" : this.props.size; //zoom
         const imgStyle = {
-            backgroundImage: `url(/images/board22-23/${this.props.img})`,
+            backgroundImage: `url(/images/board23-24/${this.props.img})`,
             backgroundRepeat: "no-repeat",
             backgroundPosition: `${halign} ${valign}`,
             backgroundSize: size
