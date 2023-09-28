@@ -48,12 +48,12 @@ class Committees extends Component {
                     heading="join a committee!"
                     id="join-committee-panel"
                 >
-                    2022-2023 committee applications will open a few weeks after fall quarter starts. There are
+                    2023-2024 committee applications will open a few weeks after fall quarter starts. There are
                     six committees you can join this year:
                     <div className="committees-list-wrapper">
                         <CommitteeEntry
                             name="A.C.E. Committee"
-                            leaders="Briana, Juan, and Rebecca"
+                            leaders="Briana, Juan, Rebecca, and Shannon"
                         >
                             The A.C.E. Committee manages activities, community service, and educational programs. 
                             The committee helps plan fun and affordable social activities, arranges community 
