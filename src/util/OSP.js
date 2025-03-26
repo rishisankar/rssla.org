@@ -69,6 +69,7 @@ class OSP extends Component {
                             data="osp_itinerary.pdf"
                             type="application/pdf"
                             width="100%"
+                            height="600px"
                         >
                             <p>
                                 Your browser does not support PDFs.
@@ -76,14 +77,12 @@ class OSP extends Component {
                         </object>
                     </div>
                 </OSPWrapper>
-                <br/><br/>
                 <OSPCoordWrapper>
                     <div className="group_photo">
                         <img 
                             src="/images/prospectives/osp_headshots/osp_group_25.jpg" 
                             alt="Group Photo" 
                             width="100%" 
-                            height="100px"
                             style={{border: '5px solid white'}}
                         />
                     </div>
