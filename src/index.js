@@ -17,6 +17,7 @@ import Contact from './routes/Contact';
 import Shop from './routes/Shop';
 import Service from './routes/Service';
 import OSP from './util/OSP';
+import interUC from './routes/interUC';
 
 import ResetScroll from './util/ResetScroll'
 
@@ -41,6 +42,7 @@ function Routes(props) {
           <Route exaxt path="/contact"><Contact /></Route>
           <Route exaxt path="/shop"><Shop /></Route>
           <Route exaxt path="/prospectives"><Prospectives /></Route>
+          <Route exaxt path="/interUC"><interUC /></Route>
           {/* <Route exact path="/OSP"><OSP/></Route> */}
           {/* <Route exaxt path="/service"><Service /></Route> */}
         </Switch>

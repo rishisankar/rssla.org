@@ -86,7 +86,7 @@ class Programs extends Component {
                     In the past, SPIEL presenters have addressed a variety of topics, 
                     ranging from mental health to ground-breaking student research.
                 </ImageTextPanel>
-
+{/* 
                 <ImageTextPanel 
                     heading="l.a.m.p."
                     image="/images/images/lamp.jpg"
@@ -99,12 +99,12 @@ class Programs extends Component {
                     to provide resources to underserved youth - giving them
                     access to SAT and ACT preparation along with workshops regarding
                     financial literacy, college applications, and more.
-                </ImageTextPanel>
+                </ImageTextPanel> */}
             
                 <ImageTextPanel 
                     heading="other events"
                     image="/images/images/2020_broomball2.jpg"
-                    align="left"
+                    align="right"
                     height={this.state.longestPanelHeight}
                 >
                     Throughout the school year, we host numerous events for our Regents Scholars,
