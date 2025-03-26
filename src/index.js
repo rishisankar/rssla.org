@@ -12,12 +12,12 @@ import Board from './routes/Board';
 import Committees from './routes/Committees';
 import Gallery from './routes/Gallery';
 import Prospectives from './routes/Prospectives';
+import InterUC from './routes/InterUC';
 import ProspectivesOld from './routes/ProspectivesOld';
 import Contact from './routes/Contact';
 import Shop from './routes/Shop';
 import Service from './routes/Service';
 import OSP from './util/OSP';
-import interUC from './routes/interUC';
 
 import ResetScroll from './util/ResetScroll'
 
@@ -41,10 +41,7 @@ function Routes(props) {
           <Route exaxt path="/prospectives"><Prospectives /></Route>
           <Route exaxt path="/contact"><Contact /></Route>
           <Route exaxt path="/shop"><Shop /></Route>
-          <Route exaxt path="/prospectives"><Prospectives /></Route>
-          <Route exaxt path="/interUC"><interUC /></Route>
-          {/* <Route exact path="/OSP"><OSP/></Route> */}
-          {/* <Route exaxt path="/service"><Service /></Route> */}
+          <Route exaxt path="/interUC"><InterUC /></Route>
         </Switch>
       </ResetScroll>
     </BrowserRouter>
