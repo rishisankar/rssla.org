@@ -78,15 +78,13 @@ class OSP extends Component {
                     </div>
                 </OSPWrapper>
                 <br/><br/>
-                <OSPMountains src="night_mountains.png" />
-                <br/><br/>
                 <OSPCoordWrapper>
                     <div className="group_photo">
                         <img 
                             src="/images/prospectives/osp_headshots/osp_group_25.jpg" 
                             alt="Group Photo" 
                             width="100%" 
-                            style={{border: '5pnx solid white'}}
+                            style={{border: '5px solid white'}}
                         />
                     </div>
                     <OSPCoord
