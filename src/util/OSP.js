@@ -63,14 +63,13 @@ class OSP extends Component {
         return (
             <div className="osp">
                 <OSPWrapper class="osp_itinerary_wrapper">
-                    <OSPMountains src="night_mountains.png" />
                     <OSPHeading name="osp itinerary"/>
                     <div className = "itinerary_pdf_container">
                         <object
                             data="osp_itinerary.pdf"
                             type="application/pdf"
                             width="100%"
-                            height="600px"
+                            height="100px"
                         >
                             <p>
                                 Your browser does not support PDFs.
@@ -78,12 +77,16 @@ class OSP extends Component {
                         </object>
                     </div>
                 </OSPWrapper>
+                <br/><br/>
+                <OSPMountains src="night_mountains.png" />
+                <br/><br/>
                 <OSPCoordWrapper>
                     <div className="group_photo">
                         <img 
                             src="/images/prospectives/osp_headshots/osp_group_25.jpg" 
                             alt="Group Photo" 
                             width="100%" 
+                            style={{border: '5pnx solid white'}}
                         />
                     </div>
                     <OSPCoord
