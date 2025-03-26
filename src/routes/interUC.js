@@ -12,7 +12,7 @@ class interUC extends Component {
             <RSSPage className="interUC">
                 <Banner 
                     text="inter-UC conference!" 
-                    bgr="/images/banners/w22-broomball.jpg"
+                    bgr="/images/banners/induction.png"
                     darkness="0.2"
                     valign="50%"
                 />
