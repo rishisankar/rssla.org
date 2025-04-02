@@ -80,11 +80,12 @@ class OSP extends Component {
                 <OSPCoordWrapper>
                     <div className="group_photo">
                         <img 
-                            src="/images/prospectives/osp_headshots/osp_group_25.jpg" 
+                            src="/images/prospectives/groupphoto2.jpg" 
                             alt="Group Photo" 
                             width="100%" 
                             style={{border: '5px solid white'}}
                         />
+                        <br/><br/>
                     </div>
                     <OSPCoord
                         name="Adrian Anaya"
@@ -129,7 +130,7 @@ class OSP extends Component {
                         <br/><br/>
                         You’ll often find me wandering all over campus to find cozy places to study and relax. I also love birding, so that’s another reason why I’m walking around outside so much. Other than that, I enjoy playing rhythm games across all platforms, grinding out crossword puzzles late at night, and getting lost in Wikipedia rabbit holes.
                         <br/><br/>
-                        I’m looking forward to welcoming you all into RSS and UCLA! Congratulations on your accomplishments and see you soon
+                        I’m looking forward to welcoming you all into RSS and UCLA! Congratulations on your accomplishments and see you soon!
                     </OSPCoord>
                     <OSPCoord
                         name="Alex Hoe"

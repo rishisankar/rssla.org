@@ -37,7 +37,7 @@ class Prospectives extends Component {
             <RSSPage className="prospectives">
                 <Banner 
                     text="prospectives" 
-                    bgr="/images/prospectives/banner.png"
+                    bgr="/images/prospectives/osp_headshots/osp_group_25.jpg"
                     darkness="0.2"
                     valign="65%"
                 />
@@ -271,7 +271,7 @@ class ProspectivesIntro extends Component {
                                 <BenefitDescription
                                     smallheading="academic resources"
                                     desc="We offer a variety of different educational resources for our members to take advantage of!
-                                        Whether it be resume reviews, information sessions, workshops, our test bank, or course planning 
+                                        Whether it be resume reviews, information sessions, workshops, or course planning 
                                         events - we aim to ensure that each RSS member has the resources they need to succeed."
                                     bgr="closedbook.png"
                                 />
@@ -350,7 +350,7 @@ class ProspectivesIntro extends Component {
                         <BenefitDescription
                             smallheading="academic resources"
                             desc="We offer a variety of different educational resources for our members to take advantage of!
-                                Whether it be resume reviews, information sessions, workshops, our test bank, or course planning 
+                                Whether it be resume reviews, information sessions, workshops, or course planning 
                                 events - we aim to ensure that each RSS member has the resources they need to succeed."
                             bgr="closedbook.png"
                         />
