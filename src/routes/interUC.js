@@ -37,7 +37,7 @@ class interUC extends Component {
                             width="50%"
                         />
                     </div>
-                    <h2>SUNDAY, MAY 4TH, 2025</h2>
+                    <h3>SUNDAY, MAY 4TH, 2025</h3>
                     <div className="sunday">
                         <img 
                             src="/images/images/sun_inter_uc.png" 
@@ -60,7 +60,7 @@ class interUC extends Component {
                         information on parking and check all street signs when leaving your car overnight!                     
                     </div>
                     <div className="location">
-                        <h2>LOCATION OF DIAGRAM:</h2>
+                        <h3>LOCATION OF DIAGRAM:</h3>
                         <img 
                             src="/images/images/parking.png" 
                             alt="Parking Map" 
