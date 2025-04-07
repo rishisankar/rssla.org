@@ -36,7 +36,7 @@ class interUC extends Component {
                             src="/images/images/sat_inter_uc.png" 
                             alt="Saturday Itinerary" 
                             width="50%"
-                            style="float: left; margin-right: 1em;"
+                            style={{ float: 'left', marginRight: '1em' }}
                         />
                     </div>
                     <br /><br />
@@ -46,7 +46,7 @@ class interUC extends Component {
                             src="/images/images/sun_inter_uc.png" 
                             alt="Sunday Itinerary" 
                             width="35%"
-                            style="float: left; margin-right: 1em;"
+                            style={{ float: 'left', marginRight: '1em' }}
                         />
                     </div>
                     <br /><br />
