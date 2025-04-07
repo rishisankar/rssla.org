@@ -19,49 +19,49 @@ class interUC extends Component {
                 <TextPanel heading="itinerary">
                     <div className="itinerary_intro">
                         Saturday, May 3rd – Sunday, May 4th, 2025
-                        <br></br>
+                        <br /><br />
                         During the Inter-UC Conference, we hope to foster networking between University 
                         of California Regents Scholars as well as showcase both the academic and social 
                         aspects of life here at UCLA. Please wear comfortable walking shoes, carry a water 
                         bottle, and bring around $30-50 in cash for dinner on Saturday and souvenirs! Lunch 
                         will be provided on Saturday and Sunday.
-                        <br></br>
+                        <br /><br />
                         PLEASE NOTE THIS IS A TENTATIVE ITINERARY AND IS SUBJECT TO CHANGE!
                     </div>
-                    <br></br>
+                    <br /><br />
                     <div className="saturday">
                         SATURDAY, MAY 3RD, 2025
                         <img 
                             src="/images/images/sat_inter_uc.png" 
                             alt="Saturday Itinerary" 
-                            width="100%" 
+                            width="50%" 
                         />
                     </div>
-                    <br></br>
+                    <br /><br />
                     <div className="sunday">
                         SUNDAY, MAY 4TH, 2025
                         <img 
                             src="/images/images/sun_inter_uc.png" 
                             alt="Sunday Itinerary" 
-                            width="100%" 
+                            width="50%" 
                         />
                     </div>
-                    <br></br>
+                    <br /><br />
                 </TextPanel>
                 <TextPanel heading="parking information">
                     <div className="parking_info">
                         If you are driving to UCLA to attend the Inter-UC Conference, there are both paid 
                         and unpaid parking options available. 
-                        <br></br>
+                        <br /><br />
                         For paid parking lots closer to campus where majority of events will be held, please 
                         refer to this site for more information and pricing: 
                         https://transportation.ucla.edu/campus-parking/visitors 
-                        <br></br>
+                        <br /><br />
                         Unpaid street parking can be found throughout Westwood. However, it is often limited and 
                         can range from a 10 to 30 minute walk to campus. Please refer to this diagram for more 
                         information on parking and check all street signs when leaving your car overnight!                     
                     </div>
-                    <br></br>
+                    <br /><br />
                     <div className="location">
                         Location of diagram:
                         <img 
@@ -71,7 +71,7 @@ class interUC extends Component {
                         />
                         Parking information 
                         (credit to: https://www.reddit.com/r/ucla/comments/vtue40/westwood_street_parking_mapguide_i_made_for/)
-                        <br></br>
+                        <br /><br />
                         MAY BE OUT OF DATE: PLEASE CHECK STREET SIGNS UPON ARRIVAL
                         <img 
                             src="/images/images/westwood_parking.png" 
