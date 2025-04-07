@@ -29,24 +29,21 @@ class interUC extends Component {
                         PLEASE NOTE THIS IS A TENTATIVE ITINERARY AND IS SUBJECT TO CHANGE!
                     </div>
                     <br /><br />
-                    SATURDAY, MAY 3RD, 2025
+                    <h3>SATURDAY, MAY 3RD, 2025</h3>
                     <div className="saturday">
-                        
                         <img 
                             src="/images/images/sat_inter_uc.png" 
                             alt="Saturday Itinerary" 
                             width="50%"
-                            style={{ float: 'left', marginRight: '1em' }}
                         />
                     </div>
                     <br /><br />
-                    SUNDAY, MAY 4TH, 2025
+                    <h3>SUNDAY, MAY 4TH, 2025</h3>
                     <div className="sunday">
                         <img 
                             src="/images/images/sun_inter_uc.png" 
                             alt="Sunday Itinerary" 
-                            width="35%"
-                            style={{ float: 'left', marginRight: '1em' }}
+                            width="40%"
                         />
                     </div>
                     <br /><br />
@@ -66,12 +63,12 @@ class interUC extends Component {
                     </div>
                     <br /><br />
                     <div className="location">
-                        Location of diagram:
+                        <h3>Location of diagram:</h3>
                         <br /><br />
                         <img 
                             src="/images/images/parking.png" 
                             alt="Parking Map" 
-                            width="50%" 
+                            width="45%" 
                         />
                         <br /><br />
                         Parking information 
@@ -82,7 +79,7 @@ class interUC extends Component {
                         <img 
                             src="/images/images/westwood_parking.png" 
                             alt="Westwood Parking Map" 
-                            width="50%" 
+                            width="35%" 
                         />
                     </div>
                 </TextPanel>
