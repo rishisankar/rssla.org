@@ -29,21 +29,24 @@ class interUC extends Component {
                         PLEASE NOTE THIS IS A TENTATIVE ITINERARY AND IS SUBJECT TO CHANGE!
                     </div>
                     <br /><br />
+                    SATURDAY, MAY 3RD, 2025
                     <div className="saturday">
-                        SATURDAY, MAY 3RD, 2025
+                        
                         <img 
                             src="/images/images/sat_inter_uc.png" 
                             alt="Saturday Itinerary" 
-                            width="50%" 
+                            width="50%"
+                            style="float: left; margin-right: 1em;"
                         />
                     </div>
                     <br /><br />
+                    SUNDAY, MAY 4TH, 2025
                     <div className="sunday">
-                        SUNDAY, MAY 4TH, 2025
                         <img 
                             src="/images/images/sun_inter_uc.png" 
                             alt="Sunday Itinerary" 
-                            width="50%" 
+                            width="35%"
+                            style="float: left; margin-right: 1em;"
                         />
                     </div>
                     <br /><br />
@@ -64,19 +67,22 @@ class interUC extends Component {
                     <br /><br />
                     <div className="location">
                         Location of diagram:
+                        <br /><br />
                         <img 
                             src="/images/images/parking.png" 
                             alt="Parking Map" 
-                            width="100%" 
+                            width="50%" 
                         />
+                        <br /><br />
                         Parking information 
                         (credit to: https://www.reddit.com/r/ucla/comments/vtue40/westwood_street_parking_mapguide_i_made_for/)
                         <br /><br />
                         MAY BE OUT OF DATE: PLEASE CHECK STREET SIGNS UPON ARRIVAL
+                        <br /><br />
                         <img 
                             src="/images/images/westwood_parking.png" 
                             alt="Westwood Parking Map" 
-                            width="100%" 
+                            width="50%" 
                         />
                     </div>
                 </TextPanel>

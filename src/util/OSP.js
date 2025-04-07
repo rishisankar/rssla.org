@@ -82,7 +82,7 @@ class OSP extends Component {
                         <img 
                             src="/images/prospectives/groupphoto2.jpg" 
                             alt="Group Photo" 
-                            width="100%" 
+                            width="75%" 
                             style={{border: '5px solid white'}}
                         />
                         <br/><br/>
