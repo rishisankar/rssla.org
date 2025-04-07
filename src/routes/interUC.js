@@ -37,16 +37,14 @@ class interUC extends Component {
                             width="50%"
                         />
                     </div>
-                    <br /><br />
                     <h3>SUNDAY, MAY 4TH, 2025</h3>
                     <div className="sunday">
                         <img 
                             src="/images/images/sun_inter_uc.png" 
                             alt="Sunday Itinerary" 
-                            width="40%"
+                            width="45%"
                         />
                     </div>
-                    <br /><br />
                 </TextPanel>
                 <TextPanel heading="parking information">
                     <div className="parking_info">
@@ -61,26 +59,20 @@ class interUC extends Component {
                         can range from a 10 to 30 minute walk to campus. Please refer to this diagram for more 
                         information on parking and check all street signs when leaving your car overnight!                     
                     </div>
-                    <br /><br />
                     <div className="location">
-                        <h3>Location of diagram:</h3>
-                        <br /><br />
+                        <h3>LOCATION OF DIAGRAM:</h3>
                         <img 
                             src="/images/images/parking.png" 
                             alt="Parking Map" 
                             width="45%" 
                         />
-                        <br /><br />
-                        Parking information 
-                        (credit to: https://www.reddit.com/r/ucla/comments/vtue40/westwood_street_parking_mapguide_i_made_for/)
-                        <br /><br />
-                        MAY BE OUT OF DATE: PLEASE CHECK STREET SIGNS UPON ARRIVAL
-                        <br /><br />
+                        <h3>MAY BE OUT OF DATE: PLEASE CHECK STREET SIGNS UPON ARRIVAL</h3>
                         <img 
                             src="/images/images/westwood_parking.png" 
                             alt="Westwood Parking Map" 
                             width="35%" 
                         />
+                        credit to: https://www.reddit.com/r/ucla/comments/vtue40/westwood_street_parking_mapguide_i_made_for/
                     </div>
                 </TextPanel>
             </RSSPage>
