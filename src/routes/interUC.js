@@ -37,7 +37,7 @@ class interUC extends Component {
                             width="50%"
                         />
                     </div>
-                    <h3>SUNDAY, MAY 4TH, 2025</h3>
+                    <h2>SUNDAY, MAY 4TH, 2025</h2>
                     <div className="sunday">
                         <img 
                             src="/images/images/sun_inter_uc.png" 
@@ -60,18 +60,19 @@ class interUC extends Component {
                         information on parking and check all street signs when leaving your car overnight!                     
                     </div>
                     <div className="location">
-                        <h3>LOCATION OF DIAGRAM:</h3>
+                        <h2>LOCATION OF DIAGRAM:</h2>
                         <img 
                             src="/images/images/parking.png" 
                             alt="Parking Map" 
                             width="45%" 
                         />
-                        <h3>MAY BE OUT OF DATE: PLEASE CHECK STREET SIGNS UPON ARRIVAL</h3>
+                        <h3>MAY BE OUT OF DATE: PLEASE CHECK STREET SIGNS UPON ARRIVAL:</h3>
                         <img 
                             src="/images/images/westwood_parking.png" 
                             alt="Westwood Parking Map" 
                             width="35%" 
                         />
+                        <br /><br />
                         credit to: https://www.reddit.com/r/ucla/comments/vtue40/westwood_street_parking_mapguide_i_made_for/
                     </div>
                 </TextPanel>
