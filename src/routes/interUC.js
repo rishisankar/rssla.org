@@ -70,7 +70,7 @@ class interUC extends Component {
                         <img 
                             src="/images/images/westwood_parking.png" 
                             alt="Westwood Parking Map" 
-                            width="35%" 
+                            width="40%" 
                         />
                         <br /><br />
                         credit to: https://www.reddit.com/r/ucla/comments/vtue40/westwood_street_parking_mapguide_i_made_for/
