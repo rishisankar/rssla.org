@@ -1,0 +1,27 @@
+.eventpage {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #f5f5f5; /* Light gray background */
+    font-family: 'Roboto', sans-serif;
+}
+
+.events-header {
+    width: 100%;
+    background-color: #242424; /* Dark gray box */
+    color: #ffffff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.events-header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+.events-content {
+    padding: 20px;
+    text-align: center;
+    font-size: 1.2em;
+    color: #333;
+} 

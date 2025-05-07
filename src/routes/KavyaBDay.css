@@ -1,0 +1,95 @@
+.kavya-bday {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #f5f5f5;
+    font-family: 'Roboto', sans-serif;
+}
+
+.bday-header {
+    width: 100%;
+    background-color: #242424;
+    color: #ffffff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.bday-content {
+    padding: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.bday-card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.bday-image {
+    width: 200px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.bday-image2 {
+    width: 400px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.bday-message {
+    flex: 1;
+}
+
+/* Heart Button Styles */
+.heart-button {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    margin-left: 20px;
+}
+
+.heart-button:hover {
+    transform: scale(1.1);
+}
+
+#heart {
+    width: 100px;
+    height: 90px;
+    transition: background 0.5s ease;
+    transform: translateX(-100px);
+}
+
+#heart:before,
+#heart:after {
+    transition: background 0.5s ease;
+    position: absolute;
+    content: "";
+    left: 50px;
+    top: 0;
+    width: 50px;
+    height: 80px;
+    background: #ff4d4d;
+    border-radius: 50px 50px 0 0;
+    transform: rotate(-45deg);
+    transform-origin: 0 100%;
+}
+
+#heart:after {
+    left: 0;
+    transform: rotate(45deg);
+    transform-origin: 100% 100%;
+}
+
+.active#heart:before,
+.active#heart:after {
+    background: #ff0000 !important;
+} 
