@@ -35,7 +35,7 @@ function KavyaBDay() {
                     </div>
                 </div>
 
-                {/* Kavya's card */}
+                {/* Katie's card */}
                 <div className="bday-card" style={{marginTop: '20px'}}>
                     <img 
                         src="/images/Kavya/Roof.jpg"
@@ -43,8 +43,22 @@ function KavyaBDay() {
                         className="bday-image2"
                     />
                     <div className="bday-message">
+                        <h2>Dear Kavya,</h2>
+                        <p>I hope you have a wonderful birthday! Your energy is always so contagious and it’s so fun to be around you. We love you so much!! 💗</p>
+                        <p style={{fontSize: '0.9em', fontStyle: 'italic'}}>- Katie</p>
+                    </div>
+                </div>
+
+                {/* Huntington's card */}
+                <div className="bday-card" style={{marginTop: '20px'}}>
+                    <img 
+                        src="/images/Kavya/room.jpeg"
+                        alt="Kavya's room"
+                        className="bday-image2"
+                    />
+                    <div className="bday-message">
                         <h2>Happy Birthday Kavya!</h2>
-                        <p>Poop!</p>
+                        <p>Poopie!</p>
                         <p style={{fontSize: '0.9em', fontStyle: 'italic'}}>- [TEMP]</p>
                     </div>
                 </div>
