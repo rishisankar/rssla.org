@@ -12,12 +12,14 @@ import Board from './routes/Board';
 import Committees from './routes/Committees';
 import Gallery from './routes/Gallery';
 import Prospectives from './routes/Prospectives';
-import InterUC from './routes/InterUC';
+import InterUC from './routes/interUC';
 import ProspectivesOld from './routes/ProspectivesOld';
 import Contact from './routes/Contact';
 import Shop from './routes/Shop';
 import Service from './routes/Service';
 import OSP from './util/OSP';
+import Event from './routes/EventPage';
+import KavyaBDay from './routes/KavyaBDay';
 
 import ResetScroll from './util/ResetScroll'
 
@@ -38,6 +40,8 @@ function Routes(props) {
           <Route exaxt path="/committees"><Committees /></Route>
           <Route exaxt path="/board"><Board /></Route>
           <Route exaxt path="/gallery"><Gallery /></Route>
+          <Route exaxt path="/events"><Event /></Route>
+          <Route exaxt path="/kavya-bday"><KavyaBDay /></Route>
           <Route exaxt path="/prospectives"><Prospectives /></Route>
           <Route exaxt path="/contact"><Contact /></Route>
           <Route exaxt path="/shop"><Shop /></Route>
