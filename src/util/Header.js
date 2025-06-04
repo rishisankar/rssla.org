@@ -50,7 +50,7 @@ class Header extends Component {
                     />
                     {/*NAVIGATION BAR */}
                     <NavBox label="gallery" link="/gallery" external={false} />
-                    <NavBox label="events" link="/events" external={false}/>
+                    {/* <NavBox label="events" link="/events" external={false}/> */}
                     <NavBox label="prospectives" link="/prospectives" external={false}/>
                     <NavBox label="inter-UC" link="/interUC" external={false}/>
                     <NavBox label="contact us" link="/contact" external={false}/>
